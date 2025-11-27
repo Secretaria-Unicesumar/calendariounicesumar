@@ -48,6 +48,11 @@ const Index = () => {
     setViewMode('month');
   };
   
+  const handleYearChange = (year: number) => {
+    const newDate = new Date(year, currentDate.getMonth(), 1);
+    setCurrentDate(newDate);
+  };
+  
   const toggleModulo = (modulo: string) => {
     setSelectedModulos(prev =>
       prev.includes(modulo) ? prev.filter(m => m !== modulo) : [...prev, modulo]
@@ -127,6 +132,7 @@ const Index = () => {
                 year={currentDate.getFullYear()}
                 events={filteredEvents}
                 onMonthClick={handleMonthClick}
+                onYearChange={handleYearChange}
               />
             )}
           </div>
