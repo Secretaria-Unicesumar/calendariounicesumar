@@ -80,7 +80,7 @@ const Index = () => {
             <div className="flex items-center gap-3">
               <Calendar className="h-8 w-8 text-calendar-today" />
               <h1 className="text-3xl md:text-4xl font-bold text-calendar-header">
-                Calendário Acadêmico
+                Calendário Acadêmico Unicesumar
               </h1>
             </div>
             <div className="flex gap-2">

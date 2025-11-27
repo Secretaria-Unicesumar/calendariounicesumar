@@ -46,11 +46,6 @@ export const MonthView = ({ currentDate, events, onDateChange, onDayClick, selec
     const isToday = new Date().toDateString() === date.toDateString();
     const isSelected = selectedDate?.toDateString() === date.toDateString();
     
-    const bgColor = periodoLetivo 
-      ? getModuleColor(periodoLetivo.modulo, allModulos)
-      : isWeekend 
-        ? 'hsl(var(--calendar-weekend))' 
-        : 'hsl(var(--card))';
     
     return (
       <button
@@ -64,7 +59,6 @@ export const MonthView = ({ currentDate, events, onDateChange, onDayClick, selec
           ${isSelected ? 'ring-2 ring-primary' : ''}
         `}
         style={{ 
-          backgroundColor: bgColor,
           opacity: 1
         }}
       >
