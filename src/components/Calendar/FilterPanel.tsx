@@ -71,8 +71,11 @@ export const FilterPanel = ({
           <div>
             <h4 className="font-semibold text-sm text-foreground mb-3">Módulos</h4>
             <div className="space-y-2">
-              {modulos.map((modulo) => (
-                <div key={modulo} className="flex items-center space-x-2">
+              {modulos.length === 0 ? (
+                <p className="text-sm text-muted-foreground">Nenhum módulo disponível</p>
+              ) : (
+                modulos.map((modulo) => (
+                  <div key={modulo} className="flex items-center space-x-2">
                   <Checkbox
                     id={`modulo-${modulo}`}
                     checked={selectedModulos.includes(modulo)}
@@ -89,15 +92,19 @@ export const FilterPanel = ({
                     <span className="text-foreground">{modulo}</span>
                   </label>
                 </div>
-              ))}
+                ))
+              )}
             </div>
           </div>
           
           <div>
             <h4 className="font-semibold text-sm text-foreground mb-3">Categorias</h4>
             <div className="space-y-2">
-              {categorias.map((categoria) => (
-                <div key={categoria} className="flex items-center space-x-2">
+              {categorias.length === 0 ? (
+                <p className="text-sm text-muted-foreground">Nenhuma categoria disponível</p>
+              ) : (
+                categorias.map((categoria) => (
+                  <div key={categoria} className="flex items-center space-x-2">
                   <Checkbox
                     id={`categoria-${categoria}`}
                     checked={selectedCategorias.includes(categoria)}
@@ -110,7 +117,8 @@ export const FilterPanel = ({
                     {categoria}
                   </label>
                 </div>
-              ))}
+                ))
+              )}
             </div>
           </div>
         </div>

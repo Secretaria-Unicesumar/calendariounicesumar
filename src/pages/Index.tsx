@@ -36,9 +36,12 @@ const Index = () => {
     const produtoMatch = selectedProdutos.length === 0 || selectedProdutos.includes(event.produto);
     return moduloMatch && categoriaMatch && produtoMatch;
   });
+
+  // Events that match currently selected products (used to compute available modulos/categorias)
+  const availableEvents = selectedProdutos.length === 0 ? events : events.filter(e => selectedProdutos.includes(e.produto));
   
-  const uniqueModulos = Array.from(new Set(events.map(e => e.modulo))).sort();
-  const uniqueCategorias = Array.from(new Set(events.map(e => e.categoria))).sort();
+  const availableModulos = Array.from(new Set(availableEvents.map(e => e.modulo))).sort();
+  const availableCategorias = Array.from(new Set(availableEvents.map(e => e.categoria))).sort();
   const uniqueProdutos = Array.from(new Set(events.map(e => e.produto))).sort();
   
   const handleDayClick = (date: Date) => {
@@ -73,6 +76,12 @@ const Index = () => {
       prev.includes(produto) ? prev.filter(c => c !== produto) : [...prev, produto]
     );
   };
+
+  // When produto selection changes, ensure module/category selections remain valid
+  useEffect(() => {
+    setSelectedModulos(prev => prev.filter(m => availableModulos.includes(m)));
+    setSelectedCategorias(prev => prev.filter(c => availableCategorias.includes(c)));
+  }, [selectedProdutos, availableModulos, availableCategorias]);
   
   const clearFilters = () => {
     setSelectedModulos([]);
@@ -118,8 +127,8 @@ const Index = () => {
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
           <div className="lg:col-span-1">
             <FilterPanel
-              modulos={uniqueModulos}
-              categorias={uniqueCategorias}
+              modulos={availableModulos}
+              categorias={availableCategorias}
               produtos={uniqueProdutos}
               selectedModulos={selectedModulos}
               selectedCategorias={selectedCategorias}
