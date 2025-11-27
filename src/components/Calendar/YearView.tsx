@@ -49,17 +49,20 @@ export const YearView = ({ year, events, onMonthClick, onYearChange }: YearViewP
         <div
           key={day}
           className={`
-            text-xs text-center py-1 rounded transition-all duration-200
-            ${hasEvents ? 'font-bold' : 'text-muted-foreground'}
-            ${isToday ? 'ring-1 ring-calendar-today' : ''}
+            text-xs text-center py-1 rounded transition-all duration-200 relative
+            ${hasEvents ? 'font-bold' : ''}
+            ${isToday ? 'ring-1 ring-calendar-today font-bold' : ''}
           `}
-          style={{ 
-            backgroundColor: bgColor,
-            opacity: periodoLetivo ? 0.3 : 1,
-            color: isToday ? 'hsl(var(--calendar-today))' : undefined
-          }}
         >
-          {day}
+          {periodoLetivo && (
+            <div 
+              className="absolute inset-0 rounded opacity-25"
+              style={{ backgroundColor: getModuleColor(periodoLetivo.modulo, allModulos) }}
+            />
+          )}
+          <span className={`relative z-10 ${isToday ? 'text-calendar-today' : 'text-foreground'}`}>
+            {day}
+          </span>
         </div>
       );
     }
