@@ -59,19 +59,25 @@ export const MonthView = ({ currentDate, events, onDateChange, onDayClick, selec
         className={`
           min-h-24 p-2 border border-border rounded-lg
           hover:opacity-90 transition-all duration-200
-          flex flex-col items-start
+          flex flex-col items-start relative
           ${isToday ? 'ring-2 ring-calendar-today' : ''}
           ${isSelected ? 'ring-2 ring-primary' : ''}
         `}
         style={{ 
           backgroundColor: bgColor,
-          opacity: periodoLetivo ? 0.2 : 1
+          opacity: 1
         }}
       >
-        <span className={`text-sm font-semibold mb-1 ${isToday ? 'text-calendar-today' : 'text-foreground'}`}>
+        {periodoLetivo && (
+          <div 
+            className="absolute inset-0 rounded-lg opacity-20"
+            style={{ backgroundColor: getModuleColor(periodoLetivo.modulo, allModulos) }}
+          />
+        )}
+        <span className={`text-sm font-bold mb-1 relative z-10 ${isToday ? 'text-calendar-today' : 'text-foreground'}`}>
           {day}
         </span>
-        <div className="flex flex-wrap gap-1 w-full">
+        <div className="flex flex-wrap gap-1 w-full relative z-10">
           {dayEvents.slice(0, 3).map((event, idx) => (
             <div
               key={idx}
@@ -81,7 +87,7 @@ export const MonthView = ({ currentDate, events, onDateChange, onDayClick, selec
             />
           ))}
           {dayEvents.length > 3 && (
-            <span className="text-xs text-muted-foreground">+{dayEvents.length - 3}</span>
+            <span className="text-xs text-muted-foreground font-semibold">+{dayEvents.length - 3}</span>
           )}
         </div>
       </button>
