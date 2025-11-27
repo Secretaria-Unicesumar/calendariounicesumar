@@ -1,6 +1,6 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { CalendarEvent, getEventsForDate, getModuleColor } from "@/utils/csvParser";
+import { CalendarEvent, getEventsForDate, getModuleColor, getPeriodoLetivoForDate } from "@/utils/csvParser";
 
 interface MonthViewProps {
   currentDate: Date;
@@ -41,9 +41,16 @@ export const MonthView = ({ currentDate, events, onDateChange, onDayClick, selec
   const renderDay = (day: number) => {
     const date = new Date(year, month, day);
     const dayEvents = getEventsForDate(events, date);
+    const periodoLetivo = getPeriodoLetivoForDate(events, date);
     const isWeekend = date.getDay() === 0 || date.getDay() === 6;
     const isToday = new Date().toDateString() === date.toDateString();
     const isSelected = selectedDate?.toDateString() === date.toDateString();
+    
+    const bgColor = periodoLetivo 
+      ? getModuleColor(periodoLetivo.modulo, allModulos)
+      : isWeekend 
+        ? 'hsl(var(--calendar-weekend))' 
+        : 'hsl(var(--card))';
     
     return (
       <button
@@ -51,12 +58,15 @@ export const MonthView = ({ currentDate, events, onDateChange, onDayClick, selec
         onClick={() => onDayClick(date)}
         className={`
           min-h-24 p-2 border border-border rounded-lg
-          hover:bg-accent transition-colors duration-200
+          hover:opacity-90 transition-all duration-200
           flex flex-col items-start
-          ${isWeekend ? 'bg-calendar-weekend' : 'bg-card'}
           ${isToday ? 'ring-2 ring-calendar-today' : ''}
-          ${isSelected ? 'bg-accent' : ''}
+          ${isSelected ? 'ring-2 ring-primary' : ''}
         `}
+        style={{ 
+          backgroundColor: bgColor,
+          opacity: periodoLetivo ? 0.2 : 1
+        }}
       >
         <span className={`text-sm font-semibold mb-1 ${isToday ? 'text-calendar-today' : 'text-foreground'}`}>
           {day}
@@ -104,7 +114,7 @@ export const MonthView = ({ currentDate, events, onDateChange, onDayClick, selec
       
       <div className="grid grid-cols-7 gap-2">
         {weekDays.map(day => (
-          <div key={day} className="text-center text-sm font-semibold text-muted-foreground py-2">
+          <div key={day} className="text-center text-sm font-bold text-foreground py-2 bg-muted rounded-t-lg">
             {day}
           </div>
         ))}

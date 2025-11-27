@@ -10,7 +10,11 @@ export interface CalendarEvent {
 export const parseCSV = async (filePath: string): Promise<CalendarEvent[]> => {
   try {
     const response = await fetch(filePath);
-    const text = await response.text();
+    const arrayBuffer = await response.arrayBuffer();
+    
+    // Decode ANSI (Windows-1252) to UTF-8
+    const decoder = new TextDecoder('windows-1252');
+    const text = decoder.decode(arrayBuffer);
     
     const lines = text.split('\n').filter(line => line.trim());
     const events: CalendarEvent[] = [];
@@ -76,4 +80,25 @@ export const getEventsForDate = (events: CalendarEvent[], date: Date): CalendarE
     
     return checkDate >= eventStart && checkDate <= eventEnd;
   });
+};
+
+export const getPeriodoLetivoForDate = (events: CalendarEvent[], date: Date): CalendarEvent | null => {
+  const periodoEvents = events.filter(event => {
+    const isPeriodoLetivo = event.categoria.toLowerCase().includes('período letivo') || 
+                           event.atividade.toLowerCase().includes('período letivo');
+    
+    if (!isPeriodoLetivo) return false;
+    
+    const eventStart = new Date(event.dataInicio);
+    const eventEnd = new Date(event.dataFim);
+    const checkDate = new Date(date);
+    
+    eventStart.setHours(0, 0, 0, 0);
+    eventEnd.setHours(0, 0, 0, 0);
+    checkDate.setHours(0, 0, 0, 0);
+    
+    return checkDate >= eventStart && checkDate <= eventEnd;
+  });
+  
+  return periodoEvents.length > 0 ? periodoEvents[0] : null;
 };
