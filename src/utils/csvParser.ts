@@ -13,7 +13,7 @@ export const parseCSV = async (filePath: string): Promise<CalendarEvent[]> => {
     const arrayBuffer = await response.arrayBuffer();
     
     // Decode ANSI (Windows-1252) to UTF-8
-    const decoder = new TextDecoder('windows-1252');
+    const decoder = new TextDecoder('utf-8');
     const text = decoder.decode(arrayBuffer);
     
     const lines = text.split('\n').filter(line => line.trim());
