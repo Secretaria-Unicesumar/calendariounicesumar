@@ -57,6 +57,23 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        module: {
+          1: "hsl(var(--module-1))",
+          2: "hsl(var(--module-2))",
+          3: "hsl(var(--module-3))",
+          4: "hsl(var(--module-4))",
+          5: "hsl(var(--module-5))",
+          6: "hsl(var(--module-6))",
+          7: "hsl(var(--module-7))",
+          8: "hsl(var(--module-8))",
+        },
+        'calendar-header': "hsl(var(--calendar-header))",
+        'calendar-today': "hsl(var(--calendar-today))",
+        'calendar-weekend': "hsl(var(--calendar-weekend))",
+      },
+      transitionProperty: {
+        'smooth': 'var(--transition-smooth)',
+        'fast': 'var(--transition-fast)',
       },
       borderRadius: {
         lg: "var(--radius)",
