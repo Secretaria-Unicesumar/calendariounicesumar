@@ -15,6 +15,7 @@ const Index = () => {
   const [selectedDate, setSelectedDate] = useState<Date | null>(null);
   const [selectedModulos, setSelectedModulos] = useState<string[]>([]);
   const [selectedCategorias, setSelectedCategorias] = useState<string[]>([]);
+  const [selectedProdutos, setSelectedProdutos] = useState<string[]>([]);
   const { toast } = useToast();
   
   useEffect(() => {
@@ -32,11 +33,13 @@ const Index = () => {
   const filteredEvents = events.filter(event => {
     const moduloMatch = selectedModulos.length === 0 || selectedModulos.includes(event.modulo);
     const categoriaMatch = selectedCategorias.length === 0 || selectedCategorias.includes(event.categoria);
-    return moduloMatch && categoriaMatch;
+    const produtoMatch = selectedProdutos.length === 0 || selectedProdutos.includes(event.produto);
+    return moduloMatch && categoriaMatch && produtoMatch;
   });
   
   const uniqueModulos = Array.from(new Set(events.map(e => e.modulo))).sort();
   const uniqueCategorias = Array.from(new Set(events.map(e => e.categoria))).sort();
+  const uniqueProdutos = Array.from(new Set(events.map(e => e.produto))).sort();
   
   const handleDayClick = (date: Date) => {
     setSelectedDate(date);
@@ -64,10 +67,17 @@ const Index = () => {
       prev.includes(categoria) ? prev.filter(c => c !== categoria) : [...prev, categoria]
     );
   };
+
+  const toggleProduto = (produto: string) => {
+    setSelectedProdutos(prev =>
+      prev.includes(produto) ? prev.filter(c => c !== produto) : [...prev, produto]
+    );
+  };
   
   const clearFilters = () => {
     setSelectedModulos([]);
     setSelectedCategorias([]);
+    setSelectedProdutos([]);
   };
   
   const dayEvents = selectedDate ? getEventsForDate(filteredEvents, selectedDate) : [];
@@ -110,10 +120,13 @@ const Index = () => {
             <FilterPanel
               modulos={uniqueModulos}
               categorias={uniqueCategorias}
+              produtos={uniqueProdutos}
               selectedModulos={selectedModulos}
               selectedCategorias={selectedCategorias}
+              selectedProdutos={selectedProdutos}
               onModuloToggle={toggleModulo}
               onCategoriaToggle={toggleCategoria}
+              onProdutoToggle={toggleProduto}
               onClearFilters={clearFilters}
             />
           </div>

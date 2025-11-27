@@ -7,23 +7,29 @@ import { getModuleColor } from "@/utils/csvParser";
 interface FilterPanelProps {
   modulos: string[];
   categorias: string[];
+  produtos: string[]; // modalidades / produtos
   selectedModulos: string[];
   selectedCategorias: string[];
+  selectedProdutos: string[]; // modalidades selecionadas
   onModuloToggle: (modulo: string) => void;
   onCategoriaToggle: (categoria: string) => void;
+  onProdutoToggle: (produto: string) => void; // toggle modalidade
   onClearFilters: () => void;
 }
 
 export const FilterPanel = ({
   modulos,
   categorias,
+  produtos,
   selectedModulos,
   selectedCategorias,
+  selectedProdutos,
   onModuloToggle,
   onCategoriaToggle,
+  onProdutoToggle,
   onClearFilters,
 }: FilterPanelProps) => {
-  const hasFilters = selectedModulos.length > 0 || selectedCategorias.length > 0;
+  const hasFilters = selectedModulos.length > 0 || selectedCategorias.length > 0 || selectedProdutos.length > 0;
   
   return (
     <div className="bg-card rounded-xl shadow-sm border border-border p-6">
@@ -42,6 +48,26 @@ export const FilterPanel = ({
       
       <ScrollArea className="h-[600px]">
         <div className="space-y-6">
+          <div>
+            <h4 className="font-semibold text-sm text-foreground mb-3">Modalidade</h4>
+            <div className="space-y-2">
+              {produtos.map((produto) => (
+                <div key={produto} className="flex items-center space-x-2">
+                  <Checkbox
+                    id={`produto-${produto}`}
+                    checked={selectedProdutos.includes(produto)}
+                    onCheckedChange={() => onProdutoToggle(produto)}
+                  />
+                  <label
+                    htmlFor={`produto-${produto}`}
+                    className="text-sm cursor-pointer text-foreground flex-1"
+                  >
+                    {produto}
+                  </label>
+                </div>
+              ))}
+            </div>
+          </div>
           <div>
             <h4 className="font-semibold text-sm text-foreground mb-3">Módulos</h4>
             <div className="space-y-2">
