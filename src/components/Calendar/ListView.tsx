@@ -60,17 +60,23 @@ export const ListView = ({ events, allModulos }: ListViewProps) => {
                   {month}
                 </h3>
                 <div className="space-y-3">
-                  {monthEvents.map((event, idx) => (
-                    <div
-                      key={`${event.dataInicio}-${idx}`}
-                      className="border border-border rounded-lg p-4 hover:bg-accent/50 transition-colors"
-                    >
-                      <div className="flex items-start gap-3">
+                  {monthEvents.map((event, idx) => {
+                    const moduleColor = getModuleColor(event.modulo, allModulos);
+                    return (
+                      <div
+                        key={`${event.dataInicio}-${idx}`}
+                        className="relative border border-border rounded-lg p-4 hover:opacity-90 transition-all overflow-hidden"
+                      >
                         <div
-                          className="w-1 h-full rounded-full flex-shrink-0"
-                          style={{ backgroundColor: getModuleColor(event.modulo, allModulos) }}
+                          className="absolute inset-0 opacity-15"
+                          style={{ backgroundColor: moduleColor }}
                         />
-                        <div className="flex-1 space-y-2">
+                        <div className="relative z-10 flex items-start gap-3">
+                          <div
+                            className="w-1 h-full rounded-full flex-shrink-0"
+                            style={{ backgroundColor: moduleColor }}
+                          />
+                          <div className="flex-1 space-y-2">
                           <div className="flex items-start justify-between gap-2">
                             <div>
                               <p className="font-semibold text-foreground">
@@ -95,10 +101,11 @@ export const ListView = ({ events, allModulos }: ListViewProps) => {
                               <span className="text-foreground font-medium">{event.produto}</span>
                             </div>
                           </div>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  ))}
+                    );
+                  })}
                 </div>
               </div>
             ))}
