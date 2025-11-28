@@ -13,14 +13,12 @@ interface ListViewProps {
 export const ListView = ({ events, allModulos }: ListViewProps) => {
   // Sort events by date
   const sortedEvents = [...events].sort((a, b) => {
-    const dateA = new Date(a.dataInicio);
-    const dateB = new Date(b.dataInicio);
-    return dateA.getTime() - dateB.getTime();
+    return a.dataInicio.getTime() - b.dataInicio.getTime();
   });
 
   // Group events by month
   const groupedByMonth = sortedEvents.reduce((acc, event) => {
-    const monthKey = format(new Date(event.dataInicio), "MMMM yyyy", { locale: ptBR });
+    const monthKey = format(event.dataInicio, "MMMM yyyy", { locale: ptBR });
     if (!acc[monthKey]) {
       acc[monthKey] = [];
     }
@@ -71,9 +69,9 @@ export const ListView = ({ events, allModulos }: ListViewProps) => {
                                 {event.atividade}
                               </p>
                               <p className="text-sm text-muted-foreground">
-                                {format(new Date(event.dataInicio), "dd 'de' MMMM 'de' yyyy", { locale: ptBR })}
+                                {format(event.dataInicio, "dd 'de' MMMM 'de' yyyy", { locale: ptBR })}
                                 {event.dataInicio.getTime() !== event.dataFim.getTime() && 
-                                  ` - ${format(new Date(event.dataFim), "dd 'de' MMMM 'de' yyyy", { locale: ptBR })}`
+                                  ` - ${format(event.dataFim, "dd 'de' MMMM 'de' yyyy", { locale: ptBR })}`
                                 }
                               </p>
                             </div>
