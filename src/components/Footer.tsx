@@ -4,7 +4,7 @@ import logoUnicesumar from "@/assets/logo-unicesumar.png";
 
 export const Footer = () => {
   return (
-    <footer className="mt-12 border-t border-border bg-card">
+    <footer className="mt-12 border-t border-border bg-slate-900 dark:bg-slate-950">
       <div className="max-w-[1800px] mx-auto px-4 md:px-8 py-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Logos */}
@@ -28,7 +28,7 @@ export const Footer = () => {
           
           {/* Copyright text */}
           <div className="text-center md:text-right">
-            <p className="text-sm text-muted-foreground">
+            <p className="text-sm text-slate-300">
               © 2025 CSC Secretaria Acadêmica Unicesumar | Desenvolvimento e Qualidade | Guilherme Caniato
             </p>
           </div>
