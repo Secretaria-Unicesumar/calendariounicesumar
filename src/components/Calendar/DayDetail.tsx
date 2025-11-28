@@ -6,10 +6,11 @@ import { CalendarEvent, getModuleColor } from "@/utils/csvParser";
 interface DayDetailProps {
   date: Date | null;
   events: CalendarEvent[];
+  allModulos: string[];
   onClose: () => void;
 }
 
-export const DayDetail = ({ date, events, onClose }: DayDetailProps) => {
+export const DayDetail = ({ date, events, allModulos, onClose }: DayDetailProps) => {
   if (!date) return null;
   
   const monthNames = [
@@ -18,8 +19,6 @@ export const DayDetail = ({ date, events, onClose }: DayDetailProps) => {
   ];
   
   const weekDays = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado'];
-  
-  const allModulos = Array.from(new Set(events.map(e => e.modulo)));
   
   const formatDate = (d: Date) => {
     return `${d.getDate().toString().padStart(2, '0')}/${(d.getMonth() + 1).toString().padStart(2, '0')}/${d.getFullYear()}`;
