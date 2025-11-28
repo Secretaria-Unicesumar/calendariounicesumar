@@ -11,12 +11,20 @@ interface ListViewProps {
 }
 
 export const ListView = ({ events, allModulos }: ListViewProps) => {
-  // Sort events by date
-  const sortedEvents = [...events].sort((a, b) => {
+  // Filtra eventos com datas válidas
+  const validEvents = events.filter((event) => {
+    return (
+      event.dataInicio instanceof Date &&
+      !isNaN(event.dataInicio.getTime())
+    );
+  });
+
+  // Ordena eventos por data
+  const sortedEvents = [...validEvents].sort((a, b) => {
     return a.dataInicio.getTime() - b.dataInicio.getTime();
   });
 
-  // Group events by month
+  // Agrupa por mês
   const groupedByMonth = sortedEvents.reduce((acc, event) => {
     const monthKey = format(event.dataInicio, "MMMM yyyy", { locale: ptBR });
     if (!acc[monthKey]) {
