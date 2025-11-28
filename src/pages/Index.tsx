@@ -178,6 +178,7 @@ const Index = () => {
               <DayDetail
                 date={selectedDate}
                 events={dayEvents}
+                allModulos={availableModulos}
                 onClose={() => setSelectedDate(null)}
               />
             )}
