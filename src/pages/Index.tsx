@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
-import { Calendar, Grid3x3 } from "lucide-react";
+import { Calendar, Grid3x3, List } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { MonthView } from "@/components/Calendar/MonthView";
 import { YearView } from "@/components/Calendar/YearView";
+import { ListView } from "@/components/Calendar/ListView";
 import { DayDetail } from "@/components/Calendar/DayDetail";
 import { FilterPanel } from "@/components/Calendar/FilterPanel";
 import { CalendarEvent, parseCSV, getEventsForDate } from "@/utils/csvParser";
@@ -11,7 +12,7 @@ import { useToast } from "@/hooks/use-toast";
 const Index = () => {
   const [events, setEvents] = useState<CalendarEvent[]>([]);
   const [currentDate, setCurrentDate] = useState(new Date());
-  const [viewMode, setViewMode] = useState<'month' | 'year'>('month');
+  const [viewMode, setViewMode] = useState<'month' | 'year' | 'list'>('month');
   const [selectedDate, setSelectedDate] = useState<Date | null>(null);
   const [selectedModulos, setSelectedModulos] = useState<string[]>([]);
   const [selectedCategorias, setSelectedCategorias] = useState<string[]>([]);
@@ -117,6 +118,13 @@ const Index = () => {
                 <Grid3x3 className="h-4 w-4 mr-2" />
                 Ano
               </Button>
+              <Button
+                variant={viewMode === 'list' ? 'default' : 'outline'}
+                onClick={() => setViewMode('list')}
+              >
+                <List className="h-4 w-4 mr-2" />
+                Lista
+              </Button>
             </div>
           </div>
           <p className="text-muted-foreground">
@@ -149,12 +157,17 @@ const Index = () => {
                 onDayClick={handleDayClick}
                 selectedDate={selectedDate}
               />
-            ) : (
+            ) : viewMode === 'year' ? (
               <YearView
                 year={currentDate.getFullYear()}
                 events={filteredEvents}
                 onMonthClick={handleMonthClick}
                 onYearChange={handleYearChange}
+              />
+            ) : (
+              <ListView
+                events={filteredEvents}
+                allModulos={availableModulos}
               />
             )}
           </div>
