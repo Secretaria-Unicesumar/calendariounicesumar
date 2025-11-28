@@ -6,6 +6,7 @@ import { YearView } from "@/components/Calendar/YearView";
 import { ListView } from "@/components/Calendar/ListView";
 import { DayDetail } from "@/components/Calendar/DayDetail";
 import { FilterPanel } from "@/components/Calendar/FilterPanel";
+import { Footer } from "@/components/Footer";
 import { CalendarEvent, parseCSV, getEventsForDate } from "@/utils/csvParser";
 import { useToast } from "@/hooks/use-toast";
 
@@ -183,6 +184,7 @@ const Index = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
