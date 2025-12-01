@@ -149,7 +149,7 @@ const Index = () => {
             />
           </div>
           
-          <div className={viewMode === 'list' ? 'lg:col-span-3' : 'lg:col-span-2'}>
+          <div className={viewMode === 'list' || !selectedDate ? 'lg:col-span-3' : 'lg:col-span-2'}>
             {viewMode === 'month' ? (
               <MonthView
                 currentDate={currentDate}
@@ -173,16 +173,16 @@ const Index = () => {
             )}
           </div>
           
-          <div className="lg:col-span-1">
-            {selectedDate && (
+          {selectedDate && viewMode !== 'list' && (
+            <div className="lg:col-span-1">
               <DayDetail
                 date={selectedDate}
                 events={dayEvents}
                 allModulos={availableModulos}
                 onClose={() => setSelectedDate(null)}
               />
-            )}
-          </div>
+            </div>
+          )}
         </div>
       </div>
       <Footer />
