@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Calendar, Grid3x3, List } from "lucide-react";
+import { Calendar, Grid3x3, List, Filter } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { MonthView } from "@/components/Calendar/MonthView";
 import { YearView } from "@/components/Calendar/YearView";
@@ -10,6 +10,7 @@ import { Footer } from "@/components/Footer";
 import { Tutorial } from "@/components/Tutorial";
 import { CalendarEvent, parseCSV, getEventsForDate } from "@/utils/csvParser";
 import { useToast } from "@/hooks/use-toast";
+import { useIsMobile } from "@/hooks/use-mobile";
 import logoUnicesumar from "@/assets/logo-unicesumar-horizontal.png";
 
 const Index = () => {
@@ -20,6 +21,8 @@ const Index = () => {
   const [selectedModulos, setSelectedModulos] = useState<string[]>([]);
   const [selectedCategorias, setSelectedCategorias] = useState<string[]>([]);
   const [selectedProdutos, setSelectedProdutos] = useState<string[]>([]);
+  const [showFilters, setShowFilters] = useState(true);
+  const isMobile = useIsMobile();
   const { toast } = useToast();
   
   useEffect(() => {
@@ -86,6 +89,11 @@ const Index = () => {
     setSelectedModulos(prev => prev.filter(m => availableModulos.includes(m)));
     setSelectedCategorias(prev => prev.filter(c => availableCategorias.includes(c)));
   }, [selectedProdutos, availableModulos, availableCategorias]);
+
+  // Hide filters automatically on mobile
+  useEffect(() => {
+    setShowFilters(!isMobile);
+  }, [isMobile]);
   
   const clearFilters = () => {
     setSelectedModulos([]);
@@ -107,6 +115,14 @@ const Index = () => {
               </h1>
             </div>
             <div className="flex gap-2">
+              <Button
+                variant={showFilters ? 'default' : 'outline'}
+                onClick={() => setShowFilters(!showFilters)}
+                className="hidden lg:flex"
+              >
+                <Filter className="h-4 w-4 mr-2" />
+                Filtros
+              </Button>
               <Button
                 variant={viewMode === 'month' ? 'default' : 'outline'}
                 onClick={() => setViewMode('month')}
@@ -134,25 +150,40 @@ const Index = () => {
           <p className="text-muted-foreground">
             Visualize e gerencie eventos acadêmicos por módulo e categoria
           </p>
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={() => setShowFilters(!showFilters)}
+            className="mt-2 lg:hidden"
+          >
+            <Filter className="h-4 w-4 mr-2" />
+            {showFilters ? 'Ocultar Filtros' : 'Mostrar Filtros'}
+          </Button>
         </header>
         
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
-          <div className="lg:col-span-1">
-            <FilterPanel
-              modulos={availableModulos}
-              categorias={availableCategorias}
-              produtos={uniqueProdutos}
-              selectedModulos={selectedModulos}
-              selectedCategorias={selectedCategorias}
-              selectedProdutos={selectedProdutos}
-              onModuloToggle={toggleModulo}
-              onCategoriaToggle={toggleCategoria}
-              onProdutoToggle={toggleProduto}
-              onClearFilters={clearFilters}
-            />
-          </div>
+          {showFilters && (
+            <div className="lg:col-span-1">
+              <FilterPanel
+                modulos={availableModulos}
+                categorias={availableCategorias}
+                produtos={uniqueProdutos}
+                selectedModulos={selectedModulos}
+                selectedCategorias={selectedCategorias}
+                selectedProdutos={selectedProdutos}
+                onModuloToggle={toggleModulo}
+                onCategoriaToggle={toggleCategoria}
+                onProdutoToggle={toggleProduto}
+                onClearFilters={clearFilters}
+              />
+            </div>
+          )}
           
-          <div className={viewMode === 'list' || !selectedDate ? 'lg:col-span-3' : 'lg:col-span-2'}>
+          <div className={
+            viewMode === 'list' || !selectedDate 
+              ? (showFilters ? 'lg:col-span-3' : 'lg:col-span-4') 
+              : (showFilters ? 'lg:col-span-2' : 'lg:col-span-3')
+          }>
             {viewMode === 'month' ? (
               <MonthView
                 currentDate={currentDate}
