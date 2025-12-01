@@ -149,7 +149,7 @@ const Index = () => {
             />
           </div>
           
-          <div className="lg:col-span-2">
+          <div className={viewMode === 'list' ? 'lg:col-span-3' : 'lg:col-span-2'}>
             {viewMode === 'month' ? (
               <MonthView
                 currentDate={currentDate}
