@@ -7,6 +7,7 @@ import { ListView } from "@/components/Calendar/ListView";
 import { DayDetail } from "@/components/Calendar/DayDetail";
 import { FilterPanel } from "@/components/Calendar/FilterPanel";
 import { Footer } from "@/components/Footer";
+import { Tutorial } from "@/components/Tutorial";
 import { CalendarEvent, parseCSV, getEventsForDate } from "@/utils/csvParser";
 import { useToast } from "@/hooks/use-toast";
 import logoUnicesumar from "@/assets/logo-unicesumar-horizontal.png";
@@ -127,6 +128,7 @@ const Index = () => {
                 <List className="h-4 w-4 mr-2" />
                 Lista
               </Button>
+              <Tutorial />
             </div>
           </div>
           <p className="text-muted-foreground">
