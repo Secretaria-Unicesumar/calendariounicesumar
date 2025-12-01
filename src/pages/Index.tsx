@@ -9,6 +9,7 @@ import { FilterPanel } from "@/components/Calendar/FilterPanel";
 import { Footer } from "@/components/Footer";
 import { CalendarEvent, parseCSV, getEventsForDate } from "@/utils/csvParser";
 import { useToast } from "@/hooks/use-toast";
+import logoUnicesumar from "@/assets/logo-unicesumar-horizontal.png";
 
 const Index = () => {
   const [events, setEvents] = useState<CalendarEvent[]>([]);
@@ -98,10 +99,10 @@ const Index = () => {
       <div className="max-w-[1800px] mx-auto">
         <header className="mb-8">
           <div className="flex items-center justify-between mb-4">
-            <div className="flex items-center gap-3">
-              <Calendar className="h-8 w-8 text-calendar-today" />
-              <h1 className="text-3xl md:text-4xl font-bold text-calendar-header">
-                Calendário Acadêmico Unicesumar
+            <div className="flex items-center gap-4">
+              <img src={logoUnicesumar} alt="Unicesumar" className="h-10 md:h-12" />
+              <h1 className="text-2xl md:text-3xl font-bold text-calendar-header">
+                Calendário Acadêmico
               </h1>
             </div>
             <div className="flex gap-2">
