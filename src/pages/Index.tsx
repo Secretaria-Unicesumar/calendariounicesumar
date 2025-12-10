@@ -147,7 +147,7 @@ const Index = () => {
               </Button>
               <Button
                 variant="outline"
-                onClick={() => printCalendar(filteredEvents, availableModulos)}
+                onClick={() => printCalendar(filteredEvents, availableModulos, logoUnicesumar)}
               >
                 <Printer className="h-4 w-4 mr-2" />
                 Imprimir

@@ -132,7 +132,23 @@ export const PrintView = ({ events, allModulos }: PrintViewProps) => {
   );
 };
 
-export const printCalendar = (events: CalendarEvent[], allModulos: string[]) => {
+export const printCalendar = async (events: CalendarEvent[], allModulos: string[], logoUrl?: string) => {
+  // Convert logo to base64 for print window
+  let logoBase64 = '';
+  if (logoUrl) {
+    try {
+      const response = await fetch(logoUrl);
+      const blob = await response.blob();
+      logoBase64 = await new Promise((resolve) => {
+        const reader = new FileReader();
+        reader.onloadend = () => resolve(reader.result as string);
+        reader.readAsDataURL(blob);
+      });
+    } catch (e) {
+      console.error('Error loading logo:', e);
+    }
+  }
+
   const printWindow = window.open('', '_blank');
   if (!printWindow) {
     alert('Por favor, permita pop-ups para imprimir o calendário.');
@@ -182,6 +198,19 @@ export const printCalendar = (events: CalendarEvent[], allModulos: string[]) => 
     return colors[index % colors.length];
   };
 
+  // Get unique modalidades for each module
+  const getModalidadesForModule = (modulo: string): string => {
+    const modalidades = new Set<string>();
+    Object.values(groupedEvents[modulo]).forEach(categoryEvents => {
+      categoryEvents.forEach(event => {
+        if (event.produto) {
+          modalidades.add(event.produto);
+        }
+      });
+    });
+    return Array.from(modalidades).join(', ');
+  };
+
   const html = `
     <!DOCTYPE html>
     <html>
@@ -191,11 +220,14 @@ export const printCalendar = (events: CalendarEvent[], allModulos: string[]) => 
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: Arial, sans-serif; font-size: 10px; padding: 10px; }
         .header { text-align: center; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 1px solid #ccc; }
+        .header img { height: 40px; margin-bottom: 8px; }
         .header h1 { font-size: 16px; margin-bottom: 5px; }
         .header p { font-size: 9px; color: #666; }
         .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
         .module { border: 1px solid #ddd; border-radius: 4px; padding: 8px; page-break-inside: avoid; }
-        .module h2 { font-size: 11px; margin-bottom: 8px; padding-bottom: 4px; border-bottom: 1px solid #eee; }
+        .module-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; padding-bottom: 4px; border-bottom: 1px solid #eee; }
+        .module-title { font-size: 11px; font-weight: bold; }
+        .module-modalidade { font-size: 9px; color: #666; font-weight: normal; }
         .category { margin-bottom: 6px; }
         .category h3 { font-size: 10px; color: #444; margin-bottom: 3px; font-weight: 600; }
         .events { padding-left: 8px; }
@@ -210,6 +242,7 @@ export const printCalendar = (events: CalendarEvent[], allModulos: string[]) => 
     </head>
     <body>
       <div class="header">
+        ${logoBase64 ? `<img src="${logoBase64}" alt="Unicesumar" />` : ''}
         <h1>Calendário Acadêmico</h1>
         <p>Gerado em ${new Date().toLocaleDateString('pt-BR')} às ${new Date().toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' })}</p>
       </div>
@@ -217,10 +250,14 @@ export const printCalendar = (events: CalendarEvent[], allModulos: string[]) => 
         ${sortedModulos.map(modulo => {
           const color = getColor(modulo);
           const categorias = Object.keys(groupedEvents[modulo]).sort();
+          const modalidades = getModalidadesForModule(modulo);
           
           return `
             <div class="module" style="border-left: 4px solid ${color};">
-              <h2 style="color: ${color};">${modulo}</h2>
+              <div class="module-header">
+                <span class="module-title" style="color: ${color};">${modulo}</span>
+                <span class="module-modalidade">${modalidades}</span>
+              </div>
               ${categorias.map(categoria => {
                 const categoryEvents = groupedEvents[modulo][categoria]
                   .filter(e => e.dataInicio instanceof Date && !isNaN(e.dataInicio.getTime()))
