@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Calendar, Grid3x3, List, Filter } from "lucide-react";
+import { Calendar, Grid3x3, List, Filter, Printer } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { MonthView } from "@/components/Calendar/MonthView";
 import { YearView } from "@/components/Calendar/YearView";
@@ -9,6 +9,7 @@ import { FilterPanel } from "@/components/Calendar/FilterPanel";
 import { Footer } from "@/components/Footer";
 import { Tutorial } from "@/components/Tutorial";
 import { CalendarEvent, parseCSV, getEventsForDate } from "@/utils/csvParser";
+import { printCalendar } from "@/components/Calendar/PrintView";
 import { useToast } from "@/hooks/use-toast";
 import { useIsMobile } from "@/hooks/use-mobile";
 import logoUnicesumar from "@/assets/logo-unicesumar-horizontal.png";
@@ -141,8 +142,15 @@ const Index = () => {
                 variant={viewMode === 'list' ? 'default' : 'outline'}
                 onClick={() => setViewMode('list')}
               >
-                <List className="h-4 w-4 mr-2" />
+              <List className="h-4 w-4 mr-2" />
                 Lista
+              </Button>
+              <Button
+                variant="outline"
+                onClick={() => printCalendar(filteredEvents, availableModulos)}
+              >
+                <Printer className="h-4 w-4 mr-2" />
+                Imprimir
               </Button>
               <Tutorial />
             </div>
