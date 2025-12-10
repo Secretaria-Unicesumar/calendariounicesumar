@@ -1,0 +1,256 @@
+import { CalendarEvent, getModuleColor } from "@/utils/csvParser";
+import { format } from "date-fns";
+import { ptBR } from "date-fns/locale";
+
+interface PrintViewProps {
+  events: CalendarEvent[];
+  allModulos: string[];
+}
+
+interface GroupedEvents {
+  [modulo: string]: {
+    [categoria: string]: CalendarEvent[];
+  };
+}
+
+export const PrintView = ({ events, allModulos }: PrintViewProps) => {
+  // Group events by module and category
+  const groupedEvents: GroupedEvents = {};
+  
+  events.forEach(event => {
+    if (!groupedEvents[event.modulo]) {
+      groupedEvents[event.modulo] = {};
+    }
+    if (!groupedEvents[event.modulo][event.categoria]) {
+      groupedEvents[event.modulo][event.categoria] = [];
+    }
+    groupedEvents[event.modulo][event.categoria].push(event);
+  });
+
+  // Sort modules
+  const sortedModulos = Object.keys(groupedEvents).sort();
+
+  const formatDateRange = (start: Date, end: Date): string => {
+    if (!(start instanceof Date) || isNaN(start.getTime()) || 
+        !(end instanceof Date) || isNaN(end.getTime())) {
+      return "Data inválida";
+    }
+    
+    const startStr = format(start, "dd/MM/yyyy", { locale: ptBR });
+    const endStr = format(end, "dd/MM/yyyy", { locale: ptBR });
+    
+    if (startStr === endStr) {
+      return startStr;
+    }
+    return `${startStr} - ${endStr}`;
+  };
+
+  return (
+    <div className="print-view p-4 bg-white text-black">
+      <style>
+        {`
+          @media print {
+            body * {
+              visibility: hidden;
+            }
+            .print-view, .print-view * {
+              visibility: visible;
+            }
+            .print-view {
+              position: absolute;
+              left: 0;
+              top: 0;
+              width: 100%;
+              background: white !important;
+              color: black !important;
+              font-size: 10px;
+            }
+            .print-module {
+              page-break-inside: avoid;
+              break-inside: avoid;
+            }
+            .no-print {
+              display: none !important;
+            }
+          }
+        `}
+      </style>
+      
+      <div className="text-center mb-4 border-b pb-2">
+        <h1 className="text-lg font-bold">Calendário Acadêmico</h1>
+        <p className="text-xs text-gray-600">
+          Gerado em {format(new Date(), "dd/MM/yyyy 'às' HH:mm", { locale: ptBR })}
+        </p>
+      </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 print:grid-cols-2">
+        {sortedModulos.map(modulo => {
+          const moduleColor = getModuleColor(modulo, allModulos);
+          const categorias = Object.keys(groupedEvents[modulo]).sort();
+          
+          return (
+            <div 
+              key={modulo} 
+              className="print-module border rounded p-2 text-xs"
+              style={{ borderLeftColor: moduleColor, borderLeftWidth: '4px' }}
+            >
+              <h2 
+                className="font-bold text-sm mb-2 pb-1 border-b"
+                style={{ color: moduleColor }}
+              >
+                {modulo}
+              </h2>
+              
+              {categorias.map(categoria => {
+                const categoryEvents = groupedEvents[modulo][categoria]
+                  .sort((a, b) => a.dataInicio.getTime() - b.dataInicio.getTime());
+                
+                return (
+                  <div key={categoria} className="mb-2">
+                    <h3 className="font-semibold text-[11px] text-gray-700 mb-1">
+                      {categoria}
+                    </h3>
+                    <ul className="space-y-0.5 pl-2">
+                      {categoryEvents.map((event, idx) => (
+                        <li key={idx} className="text-[10px] leading-tight">
+                          <span className="font-medium">
+                            {formatDateRange(event.dataInicio, event.dataFim)}
+                          </span>
+                          {" - "}
+                          <span className="text-gray-600">{event.atividade}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                );
+              })}
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+};
+
+export const printCalendar = (events: CalendarEvent[], allModulos: string[]) => {
+  const printWindow = window.open('', '_blank');
+  if (!printWindow) {
+    alert('Por favor, permita pop-ups para imprimir o calendário.');
+    return;
+  }
+
+  // Group events
+  const groupedEvents: GroupedEvents = {};
+  events.forEach(event => {
+    if (!groupedEvents[event.modulo]) {
+      groupedEvents[event.modulo] = {};
+    }
+    if (!groupedEvents[event.modulo][event.categoria]) {
+      groupedEvents[event.modulo][event.categoria] = [];
+    }
+    groupedEvents[event.modulo][event.categoria].push(event);
+  });
+
+  const sortedModulos = Object.keys(groupedEvents).sort();
+
+  const formatDateRange = (start: Date, end: Date): string => {
+    if (!(start instanceof Date) || isNaN(start.getTime()) || 
+        !(end instanceof Date) || isNaN(end.getTime())) {
+      return "Data inválida";
+    }
+    
+    const formatDate = (d: Date) => {
+      const day = String(d.getDate()).padStart(2, '0');
+      const month = String(d.getMonth() + 1).padStart(2, '0');
+      const year = d.getFullYear();
+      return `${day}/${month}/${year}`;
+    };
+    
+    const startStr = formatDate(start);
+    const endStr = formatDate(end);
+    
+    return startStr === endStr ? startStr : `${startStr} - ${endStr}`;
+  };
+
+  const getColor = (modulo: string): string => {
+    const uniqueModulos = Array.from(new Set(allModulos)).sort();
+    const index = uniqueModulos.indexOf(modulo);
+    const colors = [
+      '#8B5CF6', '#10B981', '#3B82F6', '#F59E0B', 
+      '#EF4444', '#EC4899', '#06B6D4', '#84CC16'
+    ];
+    return colors[index % colors.length];
+  };
+
+  const html = `
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>Calendário Acadêmico</title>
+      <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; font-size: 10px; padding: 10px; }
+        .header { text-align: center; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 1px solid #ccc; }
+        .header h1 { font-size: 16px; margin-bottom: 5px; }
+        .header p { font-size: 9px; color: #666; }
+        .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+        .module { border: 1px solid #ddd; border-radius: 4px; padding: 8px; page-break-inside: avoid; }
+        .module h2 { font-size: 11px; margin-bottom: 8px; padding-bottom: 4px; border-bottom: 1px solid #eee; }
+        .category { margin-bottom: 6px; }
+        .category h3 { font-size: 10px; color: #444; margin-bottom: 3px; font-weight: 600; }
+        .events { padding-left: 8px; }
+        .event { font-size: 9px; line-height: 1.4; margin-bottom: 2px; }
+        .event-date { font-weight: 600; }
+        .event-name { color: #555; }
+        @media print {
+          body { padding: 5mm; }
+          .module { break-inside: avoid; }
+        }
+      </style>
+    </head>
+    <body>
+      <div class="header">
+        <h1>Calendário Acadêmico</h1>
+        <p>Gerado em ${new Date().toLocaleDateString('pt-BR')} às ${new Date().toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' })}</p>
+      </div>
+      <div class="grid">
+        ${sortedModulos.map(modulo => {
+          const color = getColor(modulo);
+          const categorias = Object.keys(groupedEvents[modulo]).sort();
+          
+          return `
+            <div class="module" style="border-left: 4px solid ${color};">
+              <h2 style="color: ${color};">${modulo}</h2>
+              ${categorias.map(categoria => {
+                const categoryEvents = groupedEvents[modulo][categoria]
+                  .filter(e => e.dataInicio instanceof Date && !isNaN(e.dataInicio.getTime()))
+                  .sort((a, b) => a.dataInicio.getTime() - b.dataInicio.getTime());
+                
+                return `
+                  <div class="category">
+                    <h3>${categoria}</h3>
+                    <div class="events">
+                      ${categoryEvents.map(event => `
+                        <div class="event">
+                          <span class="event-date">${formatDateRange(event.dataInicio, event.dataFim)}</span>
+                          - <span class="event-name">${event.atividade}</span>
+                        </div>
+                      `).join('')}
+                    </div>
+                  </div>
+                `;
+              }).join('')}
+            </div>
+          `;
+        }).join('')}
+      </div>
+      <script>
+        window.onload = () => { window.print(); };
+      </script>
+    </body>
+    </html>
+  `;
+
+  printWindow.document.write(html);
+  printWindow.document.close();
+};
