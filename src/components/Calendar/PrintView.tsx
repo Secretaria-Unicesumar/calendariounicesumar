@@ -86,7 +86,11 @@ export const PrintView = ({ events, allModulos }: PrintViewProps) => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 print:grid-cols-2">
         {sortedModulos.map(modulo => {
           const moduleColor = getModuleColor(modulo, allModulos);
-          const categorias = Object.keys(groupedEvents[modulo]).sort();
+          const categorias = Object.keys(groupedEvents[modulo]).sort((a, b) => {
+            const minOrdemA = Math.min(...groupedEvents[modulo][a].map(e => e.ordem));
+            const minOrdemB = Math.min(...groupedEvents[modulo][b].map(e => e.ordem));
+            return minOrdemA - minOrdemB;
+          });
           
           return (
             <div 
@@ -249,7 +253,11 @@ export const printCalendar = async (events: CalendarEvent[], allModulos: string[
       <div class="grid">
         ${sortedModulos.map(modulo => {
           const color = getColor(modulo);
-          const categorias = Object.keys(groupedEvents[modulo]).sort();
+          const categorias = Object.keys(groupedEvents[modulo]).sort((a, b) => {
+            const minOrdemA = Math.min(...groupedEvents[modulo][a].map(e => e.ordem));
+            const minOrdemB = Math.min(...groupedEvents[modulo][b].map(e => e.ordem));
+            return minOrdemA - minOrdemB;
+          });
           const modalidades = getModalidadesForModule(modulo);
           
           return `
