@@ -103,7 +103,7 @@ export const PrintView = ({ events, allModulos }: PrintViewProps) => {
               
               {categorias.map(categoria => {
                 const categoryEvents = groupedEvents[modulo][categoria]
-                  .sort((a, b) => a.dataInicio.getTime() - b.dataInicio.getTime());
+                  .sort((a, b) => a.ordem - b.ordem || a.dataInicio.getTime() - b.dataInicio.getTime());
                 
                 return (
                   <div key={categoria} className="mb-2">
@@ -261,7 +261,7 @@ export const printCalendar = async (events: CalendarEvent[], allModulos: string[
               ${categorias.map(categoria => {
                 const categoryEvents = groupedEvents[modulo][categoria]
                   .filter(e => e.dataInicio instanceof Date && !isNaN(e.dataInicio.getTime()))
-                  .sort((a, b) => a.dataInicio.getTime() - b.dataInicio.getTime());
+                  .sort((a, b) => a.ordem - b.ordem || a.dataInicio.getTime() - b.dataInicio.getTime());
                 
                 return `
                   <div class="category">

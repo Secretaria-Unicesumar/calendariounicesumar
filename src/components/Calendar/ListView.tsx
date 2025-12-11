@@ -19,9 +19,11 @@ export const ListView = ({ events, allModulos }: ListViewProps) => {
     );
   });
 
-  // Ordena eventos por data
+  // Ordena eventos por categoria e ordem
   const sortedEvents = [...validEvents].sort((a, b) => {
-    return a.dataInicio.getTime() - b.dataInicio.getTime();
+    const categoriaCompare = a.categoria.localeCompare(b.categoria);
+    if (categoriaCompare !== 0) return categoriaCompare;
+    return a.ordem - b.ordem || a.dataInicio.getTime() - b.dataInicio.getTime();
   });
 
   // Agrupa por mês
