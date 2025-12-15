@@ -28,7 +28,8 @@ const Index = () => {
   
   useEffect(() => {
     const loadEvents = async () => {
-      const loadedEvents = await parseCSV('/calendario.csv');
+      const basePath = import.meta.env.BASE_URL;
+      const loadedEvents = await parseCSV(`${basePath}calendario.csv`);
       setEvents(loadedEvents);
       toast({
         title: "Calendário carregado",
