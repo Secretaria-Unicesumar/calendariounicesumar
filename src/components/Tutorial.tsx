@@ -21,7 +21,7 @@ export function Tutorial() {
       <DialogContent className="max-w-2xl max-h-[85vh]">
         <DialogHeader>
           <DialogTitle className="text-xl font-bold text-calendar-header">
-            Como utilizar o Calendário Acadêmico
+            Como utilizar o Calendário Administrativo
           </DialogTitle>
         </DialogHeader>
         <ScrollArea className="h-[60vh] pr-4">
@@ -53,7 +53,7 @@ export function Tutorial() {
                     <p className="font-medium">Ano</p>
                     <p className="text-sm text-muted-foreground">
                       Visualize todos os 12 meses do ano de uma vez. Útil para ter uma 
-                      visão geral do calendário acadêmico. Clique em um mês para abri-lo na visão mensal.
+                      visão geral do calendário administrativo. Clique em um mês para abri-lo na visão mensal.
                     </p>
                   </div>
                 </div>
@@ -84,7 +84,7 @@ export function Tutorial() {
                 </p>
                 <ul className="list-disc list-inside text-sm text-muted-foreground space-y-1">
                   <li><strong>Produto:</strong> Graduação EAD, Pós-graduação, Técnico, etc.</li>
-                  <li><strong>Módulo:</strong> Período acadêmico específico (ex: 2026-51, 2026-52)</li>
+                  <li><strong>Módulo:</strong> Período específico (ex: 2026-51, 2026-52)</li>
                   <li><strong>Categoria:</strong> Tipo de atividade (Matrícula, Aproveitamento, etc.)</li>
                 </ul>
                 <p className="text-sm text-muted-foreground mt-2">
@@ -152,7 +152,7 @@ export function Tutorial() {
                 <p className="text-sm text-muted-foreground">
                   Cada módulo possui uma cor única que é consistente em todas as visualizações 
                   do calendário. Isso facilita a identificação rápida de eventos relacionados 
-                  ao mesmo módulo acadêmico.
+                  ao mesmo módulo.
                 </p>
                 <p className="text-sm text-muted-foreground">
                   A cor de cada módulo é exibida tanto no painel de filtros quanto nos eventos 

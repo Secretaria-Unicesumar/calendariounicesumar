@@ -109,65 +109,72 @@ const Index = () => {
     <div className="min-h-screen bg-background p-4 md:p-8">
       <div className="max-w-[1800px] mx-auto">
         <header className="mb-8">
-          <div className="flex items-center justify-between mb-4">
-            <div className="flex items-center gap-4">
-              <img src={logoUnicesumar} alt="Unicesumar" className="h-10 md:h-12" />
-              <h1 className="text-2xl md:text-3xl font-bold text-calendar-header">
-                Calendário Acadêmico
-              </h1>
+          <div className="flex flex-col gap-4 mb-4">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2 sm:gap-4">
+                <img src={logoUnicesumar} alt="Unicesumar" className="h-8 sm:h-10 md:h-12" />
+                <h1 className="text-lg sm:text-2xl md:text-3xl font-bold text-calendar-header">
+                  Calendário Administrativo
+                </h1>
+              </div>
+              <Tutorial />
             </div>
-            <div className="flex gap-2">
+            <div className="flex flex-wrap gap-2">
               <Button
                 variant={showFilters ? 'default' : 'outline'}
                 onClick={() => setShowFilters(!showFilters)}
+                size="sm"
                 className="hidden lg:flex"
               >
-                <Filter className="h-4 w-4 mr-2" />
-                Filtros
+                <Filter className="h-4 w-4 mr-1 sm:mr-2" />
+                <span className="hidden sm:inline">Filtros</span>
               </Button>
               <Button
                 variant={viewMode === 'month' ? 'default' : 'outline'}
                 onClick={() => setViewMode('month')}
+                size="sm"
               >
-                <Calendar className="h-4 w-4 mr-2" />
-                Mês
+                <Calendar className="h-4 w-4 sm:mr-2" />
+                <span className="hidden sm:inline">Mês</span>
               </Button>
               <Button
                 variant={viewMode === 'year' ? 'default' : 'outline'}
                 onClick={() => setViewMode('year')}
+                size="sm"
               >
-                <Grid3x3 className="h-4 w-4 mr-2" />
-                Ano
+                <Grid3x3 className="h-4 w-4 sm:mr-2" />
+                <span className="hidden sm:inline">Ano</span>
               </Button>
               <Button
                 variant={viewMode === 'list' ? 'default' : 'outline'}
                 onClick={() => setViewMode('list')}
+                size="sm"
               >
-              <List className="h-4 w-4 mr-2" />
-                Lista
+                <List className="h-4 w-4 sm:mr-2" />
+                <span className="hidden sm:inline">Lista</span>
               </Button>
               <Button
                 variant="outline"
                 onClick={() => printCalendar(filteredEvents, availableModulos, logoUnicesumar)}
+                size="sm"
               >
-                <Printer className="h-4 w-4 mr-2" />
-                Imprimir
+                <Printer className="h-4 w-4 sm:mr-2" />
+                <span className="hidden sm:inline">Imprimir</span>
               </Button>
-              <Tutorial />
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => setShowFilters(!showFilters)}
+                className="lg:hidden"
+              >
+                <Filter className="h-4 w-4 sm:mr-2" />
+                <span className="hidden sm:inline">{showFilters ? 'Ocultar Filtros' : 'Mostrar Filtros'}</span>
+              </Button>
             </div>
           </div>
-          <p className="text-muted-foreground">
-            Visualize e gerencie eventos acadêmicos por módulo e categoria
+          <p className="text-muted-foreground text-sm sm:text-base">
+            Visualize e gerencie eventos administrativos por módulo e categoria
           </p>
-          <Button
-            variant="outline"
-            size="sm"
-            onClick={() => setShowFilters(!showFilters)}
-            className="mt-2 lg:hidden"
-          >
-            <Filter className="h-4 w-4 mr-2" />
-            {showFilters ? 'Ocultar Filtros' : 'Mostrar Filtros'}
-          </Button>
         </header>
         
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
