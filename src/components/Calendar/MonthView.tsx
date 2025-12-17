@@ -52,7 +52,7 @@ export const MonthView = ({ currentDate, events, onDateChange, onDayClick, selec
         key={day}
         onClick={() => onDayClick(date)}
         className={`
-          min-h-24 p-2 border border-border rounded-lg
+          min-h-14 sm:min-h-24 p-1 sm:p-2 border border-border rounded-md sm:rounded-lg
           hover:opacity-90 transition-all duration-200
           flex flex-col items-start relative
           ${isToday ? 'ring-2 ring-calendar-today' : ''}
@@ -64,24 +64,24 @@ export const MonthView = ({ currentDate, events, onDateChange, onDayClick, selec
       >
         {periodoLetivo && (
           <div 
-            className="absolute inset-0 rounded-lg opacity-20"
+            className="absolute inset-0 rounded-md sm:rounded-lg opacity-20"
             style={{ backgroundColor: getModuleColor(periodoLetivo.modulo, allModulos) }}
           />
         )}
-        <span className={`text-sm font-bold mb-1 relative z-10 ${isToday ? 'text-calendar-today' : 'text-foreground'}`}>
+        <span className={`text-[10px] sm:text-sm font-bold mb-0.5 sm:mb-1 relative z-10 ${isToday ? 'text-calendar-today' : 'text-foreground'}`}>
           {day}
         </span>
-        <div className="flex flex-wrap gap-1 w-full relative z-10">
+        <div className="flex flex-wrap gap-0.5 sm:gap-1 w-full relative z-10">
           {dayEvents.slice(0, 3).map((event, idx) => (
             <div
               key={idx}
-              className="h-1.5 flex-1 rounded-full"
+              className="h-1 sm:h-1.5 flex-1 rounded-full"
               style={{ backgroundColor: getModuleColor(event.modulo, allModulos) }}
               title={event.atividade}
             />
           ))}
           {dayEvents.length > 3 && (
-            <span className="text-xs text-muted-foreground font-semibold">+{dayEvents.length - 3}</span>
+            <span className="text-[8px] sm:text-xs text-muted-foreground font-semibold">+{dayEvents.length - 3}</span>
           )}
         </div>
       </button>
@@ -90,31 +90,31 @@ export const MonthView = ({ currentDate, events, onDateChange, onDayClick, selec
   
   const days = [];
   for (let i = 0; i < startingDayOfWeek; i++) {
-    days.push(<div key={`empty-${i}`} className="min-h-24" />);
+    days.push(<div key={`empty-${i}`} className="min-h-14 sm:min-h-24" />);
   }
   for (let day = 1; day <= daysInMonth; day++) {
     days.push(renderDay(day));
   }
   
   return (
-    <div className="bg-card rounded-xl shadow-sm border border-border p-6">
-      <div className="flex items-center justify-between mb-6">
-        <h2 className="text-2xl font-bold text-calendar-header">
+    <div className="bg-card rounded-xl shadow-sm border border-border p-2 sm:p-4 md:p-6">
+      <div className="flex items-center justify-between mb-3 sm:mb-6">
+        <h2 className="text-base sm:text-xl md:text-2xl font-bold text-calendar-header">
           {monthNames[month]} {year}
         </h2>
-        <div className="flex gap-2">
-          <Button variant="outline" size="icon" onClick={prevMonth}>
-            <ChevronLeft className="h-4 w-4" />
+        <div className="flex gap-1 sm:gap-2">
+          <Button variant="outline" size="icon" className="h-7 w-7 sm:h-9 sm:w-9" onClick={prevMonth}>
+            <ChevronLeft className="h-3 w-3 sm:h-4 sm:w-4" />
           </Button>
-          <Button variant="outline" size="icon" onClick={nextMonth}>
-            <ChevronRight className="h-4 w-4" />
+          <Button variant="outline" size="icon" className="h-7 w-7 sm:h-9 sm:w-9" onClick={nextMonth}>
+            <ChevronRight className="h-3 w-3 sm:h-4 sm:w-4" />
           </Button>
         </div>
       </div>
       
-      <div className="grid grid-cols-7 gap-2">
+      <div className="grid grid-cols-7 gap-0.5 sm:gap-2">
         {weekDays.map(day => (
-          <div key={day} className="text-center text-sm font-bold text-foreground py-2 bg-muted rounded-t-lg">
+          <div key={day} className="text-center text-[10px] sm:text-sm font-bold text-foreground py-1 sm:py-2 bg-muted rounded-t-md sm:rounded-t-lg">
             {day}
           </div>
         ))}

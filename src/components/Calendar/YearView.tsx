@@ -49,7 +49,7 @@ export const YearView = ({ year, events, onMonthClick, onYearChange }: YearViewP
         <div
           key={day}
           className={`
-            text-xs text-center py-1 rounded transition-all duration-200 relative
+            text-[8px] sm:text-xs text-center py-0.5 sm:py-1 rounded transition-all duration-200 relative
             ${hasEvents ? 'font-bold' : ''}
             ${isToday ? 'ring-1 ring-calendar-today font-bold' : ''}
           `}
@@ -70,19 +70,19 @@ export const YearView = ({ year, events, onMonthClick, onYearChange }: YearViewP
     return (
       <button
         onClick={() => onMonthClick(month)}
-        className="bg-card rounded-lg border border-border p-3 hover:shadow-md transition-all duration-200 hover:scale-105 animate-fade-in"
+        className="bg-card rounded-md sm:rounded-lg border border-border p-1.5 sm:p-3 hover:shadow-md transition-all duration-200 hover:scale-105 animate-fade-in"
       >
-        <div className="text-sm font-semibold text-foreground mb-3">
+        <div className="text-xs sm:text-sm font-semibold text-foreground mb-1.5 sm:mb-3">
           {monthNames[month]}
         </div>
-        <div className="grid grid-cols-7 gap-1 mb-1">
+        <div className="grid grid-cols-7 gap-0.5 sm:gap-1 mb-0.5 sm:mb-1">
           {weekDaysShort.map((day, idx) => (
-            <div key={idx} className="text-[10px] text-center font-bold text-muted-foreground">
+            <div key={idx} className="text-[8px] sm:text-[10px] text-center font-bold text-muted-foreground">
               {day}
             </div>
           ))}
         </div>
-        <div className="grid grid-cols-7 gap-1">
+        <div className="grid grid-cols-7 gap-0.5 sm:gap-1">
           {days}
         </div>
       </button>
@@ -90,19 +90,19 @@ export const YearView = ({ year, events, onMonthClick, onYearChange }: YearViewP
   };
   
   return (
-    <div className="bg-card rounded-xl shadow-sm border border-border p-6">
-      <div className="flex items-center justify-between mb-6">
-        <h2 className="text-2xl font-bold text-calendar-header">{year}</h2>
-        <div className="flex gap-2">
-          <Button variant="outline" size="icon" onClick={prevYear}>
-            <ChevronLeft className="h-4 w-4" />
+    <div className="bg-card rounded-xl shadow-sm border border-border p-2 sm:p-4 md:p-6">
+      <div className="flex items-center justify-between mb-3 sm:mb-6">
+        <h2 className="text-base sm:text-xl md:text-2xl font-bold text-calendar-header">{year}</h2>
+        <div className="flex gap-1 sm:gap-2">
+          <Button variant="outline" size="icon" className="h-7 w-7 sm:h-9 sm:w-9" onClick={prevYear}>
+            <ChevronLeft className="h-3 w-3 sm:h-4 sm:w-4" />
           </Button>
-          <Button variant="outline" size="icon" onClick={nextYear}>
-            <ChevronRight className="h-4 w-4" />
+          <Button variant="outline" size="icon" className="h-7 w-7 sm:h-9 sm:w-9" onClick={nextYear}>
+            <ChevronRight className="h-3 w-3 sm:h-4 sm:w-4" />
           </Button>
         </div>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-4">
         {Array.from({ length: 12 }, (_, i) => renderMiniMonth(i))}
       </div>
     </div>
