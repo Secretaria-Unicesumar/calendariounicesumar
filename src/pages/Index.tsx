@@ -106,9 +106,9 @@ const Index = () => {
   const dayEvents = selectedDate ? getEventsForDate(filteredEvents, selectedDate) : [];
   
   return (
-    <div className="min-h-screen bg-background p-4 md:p-8">
+    <div className="min-h-screen bg-background p-2 sm:p-4 md:p-8">
       <div className="max-w-[1800px] mx-auto">
-        <header className="mb-8">
+        <header className="mb-4 sm:mb-8">
           <div className="flex flex-col gap-4 mb-4">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2 sm:gap-4">
@@ -177,7 +177,7 @@ const Index = () => {
           </p>
         </header>
         
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-3 sm:gap-6">
           {showFilters && (
             <div className="lg:col-span-1">
               <FilterPanel
