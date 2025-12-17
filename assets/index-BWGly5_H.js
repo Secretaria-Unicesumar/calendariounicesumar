@@ -218,9 +218,15 @@ For more information, see https://radix-ui.com/primitives/docs/components/${t.do
         .event { font-size: 9px; line-height: 1.4; margin-bottom: 2px; }
         .event-date { font-weight: 600; }
         .event-name { color: #555; }
+        .footer { margin-top: 20px; padding-top: 15px; border-top: 1px solid #ccc; }
+        .footer-content { display: flex; align-items: center; justify-content: space-between; gap: 15px; }
+        .footer-text { font-size: 9px; color: #444; flex: 1; }
+        .footer-text a { color: #3B82F6; text-decoration: none; }
+        .qr-code { width: 80px; height: 80px; }
         @media print {
           body { padding: 5mm; }
           .module { break-inside: avoid; }
+          .footer { page-break-inside: avoid; }
         }
       </style>
     </head>
@@ -252,6 +258,12 @@ For more information, see https://radix-ui.com/primitives/docs/components/${t.do
                 `}).join("")}
             </div>
           `}).join("")}
+      </div>
+      <div class="footer">
+        <div class="footer-content">
+          <p class="footer-text">O calendário atualizado pode ser consultado através do link: <a href="https://secretaria-unicesumar.github.io/calendariounicesumar/">https://secretaria-unicesumar.github.io/calendariounicesumar/</a> ou no QR Code ao lado.</p>
+          <img class="qr-code" src="https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://secretaria-unicesumar.github.io/calendariounicesumar/" alt="QR Code" />
+        </div>
       </div>
       <script>
         window.onload = () => { window.print(); };
