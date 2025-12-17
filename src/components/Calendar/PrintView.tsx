@@ -77,7 +77,7 @@ export const PrintView = ({ events, allModulos }: PrintViewProps) => {
       </style>
       
       <div className="text-center mb-4 border-b pb-2">
-        <h1 className="text-lg font-bold">Calendário Acadêmico</h1>
+        <h1 className="text-lg font-bold">Calendário Administrativo</h1>
         <p className="text-xs text-gray-600">
           Gerado em {format(new Date(), "dd/MM/yyyy 'às' HH:mm", { locale: ptBR })}
         </p>
@@ -219,7 +219,7 @@ export const printCalendar = async (events: CalendarEvent[], allModulos: string[
     <!DOCTYPE html>
     <html>
     <head>
-      <title>Calendário Acadêmico</title>
+      <title>Calendário Administrativo</title>
       <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: Arial, sans-serif; font-size: 10px; padding: 10px; }
@@ -253,7 +253,7 @@ export const printCalendar = async (events: CalendarEvent[], allModulos: string[
     <body>
       <div class="header">
         ${logoBase64 ? `<img src="${logoBase64}" alt="Unicesumar" />` : ''}
-        <h1>Calendário Acadêmico</h1>
+        <h1>Calendário Administrativo</h1>
         <p>Gerado em ${new Date().toLocaleDateString('pt-BR')} às ${new Date().toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' })}</p>
       </div>
       <div class="grid">
