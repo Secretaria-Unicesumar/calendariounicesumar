@@ -218,17 +218,17 @@ For more information, see https://radix-ui.com/primitives/docs/components/${t.do
         .event { font-size: 9px; line-height: 1.4; margin-bottom: 2px; }
         .event-date { font-weight: 600; }
         .event-name { color: #555; }
-        .footer { margin-top: 20px; padding-top: 15px; border-top: 1px solid #ccc; }
-        .footer-qr-row { display: flex; align-items: center; justify-content: space-between; gap: 15px; margin-bottom: 15px; }
-        .footer-text { font-size: 9px; color: #444; flex: 1; }
-        .footer-text a { color: #3B82F6; text-decoration: none; }
-        .qr-code { width: 80px; height: 80px; }
-        .footer-branding { display: flex; align-items: center; justify-content: space-between; padding-top: 12px; border-top: 1px solid #eee; }
+        .footer { margin-top: 20px; padding: 15px; background-color: #1e293b; border-radius: 6px; }
+        .footer-qr-row { display: flex; align-items: center; justify-content: space-between; gap: 15px; margin-bottom: 15px; padding-bottom: 12px; border-bottom: 1px solid #334155; }
+        .footer-text { font-size: 9px; color: #cbd5e1; flex: 1; }
+        .footer-text a { color: #60a5fa; text-decoration: none; }
+        .qr-code { width: 80px; height: 80px; background: white; padding: 4px; border-radius: 4px; }
+        .footer-branding { display: flex; align-items: center; justify-content: space-between; }
         .footer-logos { display: flex; align-items: center; gap: 15px; }
         .footer-logos img { height: 30px; object-fit: contain; }
         .footer-logos img.logo-secretaria { height: 40px; width: 40px; }
         .footer-logos img.logo-csc { height: 30px; width: 30px; }
-        .footer-copyright { font-size: 8px; color: #666; text-align: right; }
+        .footer-copyright { font-size: 8px; color: #cbd5e1; text-align: right; }
         @media print {
           body { padding: 5mm; }
           .module { break-inside: avoid; }
