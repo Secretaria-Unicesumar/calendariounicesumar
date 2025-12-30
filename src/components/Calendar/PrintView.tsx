@@ -136,22 +136,33 @@ export const PrintView = ({ events, allModulos }: PrintViewProps) => {
   );
 };
 
+import logoSecretaria from "@/assets/logo-secretaria-academica.png";
+import logoCSC from "@/assets/logo-csc.png";
+import logoUnicesumarFooter from "@/assets/logo-unicesumar.png";
+
 export const printCalendar = async (events: CalendarEvent[], allModulos: string[], logoUrl?: string) => {
-  // Convert logo to base64 for print window
-  let logoBase64 = '';
-  if (logoUrl) {
+  // Convert logos to base64 for print window
+  const convertToBase64 = async (url: string): Promise<string> => {
     try {
-      const response = await fetch(logoUrl);
+      const response = await fetch(url);
       const blob = await response.blob();
-      logoBase64 = await new Promise((resolve) => {
+      return await new Promise((resolve) => {
         const reader = new FileReader();
         reader.onloadend = () => resolve(reader.result as string);
         reader.readAsDataURL(blob);
       });
     } catch (e) {
-      console.error('Error loading logo:', e);
+      console.error('Error loading image:', e);
+      return '';
     }
-  }
+  };
+
+  const [logoBase64, logoSecretariaBase64, logoCscBase64, logoUnicesumarFooterBase64] = await Promise.all([
+    logoUrl ? convertToBase64(logoUrl) : Promise.resolve(''),
+    convertToBase64(logoSecretaria),
+    convertToBase64(logoCSC),
+    convertToBase64(logoUnicesumarFooter),
+  ]);
 
   const printWindow = window.open('', '_blank');
   if (!printWindow) {
@@ -239,10 +250,16 @@ export const printCalendar = async (events: CalendarEvent[], allModulos: string[
         .event-date { font-weight: 600; }
         .event-name { color: #555; }
         .footer { margin-top: 20px; padding-top: 15px; border-top: 1px solid #ccc; }
-        .footer-content { display: flex; align-items: center; justify-content: space-between; gap: 15px; }
+        .footer-qr-row { display: flex; align-items: center; justify-content: space-between; gap: 15px; margin-bottom: 15px; }
         .footer-text { font-size: 9px; color: #444; flex: 1; }
         .footer-text a { color: #3B82F6; text-decoration: none; }
         .qr-code { width: 80px; height: 80px; }
+        .footer-branding { display: flex; align-items: center; justify-content: space-between; padding-top: 12px; border-top: 1px solid #eee; }
+        .footer-logos { display: flex; align-items: center; gap: 15px; }
+        .footer-logos img { height: 30px; object-fit: contain; }
+        .footer-logos img.logo-secretaria { height: 40px; width: 40px; }
+        .footer-logos img.logo-csc { height: 30px; width: 30px; }
+        .footer-copyright { font-size: 8px; color: #666; text-align: right; }
         @media print {
           body { padding: 5mm; }
           .module { break-inside: avoid; }
@@ -296,9 +313,17 @@ export const printCalendar = async (events: CalendarEvent[], allModulos: string[
         }).join('')}
       </div>
       <div class="footer">
-        <div class="footer-content">
+        <div class="footer-qr-row">
           <p class="footer-text">O calendário atualizado pode ser consultado através do link: <a href="https://secretaria-unicesumar.github.io/calendariounicesumar/">https://secretaria-unicesumar.github.io/calendariounicesumar/</a> ou no QR Code ao lado.</p>
           <img class="qr-code" src="https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://secretaria-unicesumar.github.io/calendariounicesumar/" alt="QR Code" />
+        </div>
+        <div class="footer-branding">
+          <div class="footer-logos">
+            ${logoSecretariaBase64 ? `<img class="logo-secretaria" src="${logoSecretariaBase64}" alt="Secretaria Acadêmica" />` : ''}
+            ${logoCscBase64 ? `<img class="logo-csc" src="${logoCscBase64}" alt="CSC" />` : ''}
+            ${logoUnicesumarFooterBase64 ? `<img src="${logoUnicesumarFooterBase64}" alt="Unicesumar" />` : ''}
+          </div>
+          <p class="footer-copyright">© 2025 CSC Secretaria Acadêmica Unicesumar | Desenvolvimento e Qualidade | Guilherme Caniato</p>
         </div>
       </div>
       <script>
