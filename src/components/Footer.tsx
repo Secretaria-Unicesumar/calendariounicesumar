@@ -29,7 +29,7 @@ export const Footer = () => {
           {/* Copyright text */}
           <div className="text-center md:text-right">
             <p className="text-sm text-slate-300">
-              © 2025 CSC Secretaria Acadêmica Unicesumar | Desenvolvimento e Qualidade | Guilherme Caniato
+              © 2026 CSC Secretaria Acadêmica Unicesumar | Desenvolvimento e Qualidade | Guilherme Caniato
             </p>
           </div>
         </div>

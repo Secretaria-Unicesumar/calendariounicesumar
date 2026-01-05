@@ -323,7 +323,7 @@ export const printCalendar = async (events: CalendarEvent[], allModulos: string[
             ${logoCscBase64 ? `<img class="logo-csc" src="${logoCscBase64}" alt="CSC" />` : ''}
             ${logoUnicesumarFooterBase64 ? `<img src="${logoUnicesumarFooterBase64}" alt="Unicesumar" />` : ''}
           </div>
-          <p class="footer-copyright">© 2025 CSC Secretaria Acadêmica Unicesumar | Desenvolvimento e Qualidade | Guilherme Caniato</p>
+          <p class="footer-copyright">© 2026 CSC Secretaria Acadêmica Unicesumar | Desenvolvimento e Qualidade | Guilherme Caniato</p>
         </div>
       </div>
       <script>
