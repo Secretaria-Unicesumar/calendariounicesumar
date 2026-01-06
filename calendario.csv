@@ -24,17 +24,13 @@ Abertura de turmas (rotina da Secretaria);Graduação EAD;Outros serviços atend
 Solicitação de Alteração de matrizes;Graduação EAD;Outros serviços atendidos pela Secretaria;2026-51;;;;9
 Período de Captação;Graduação EAD;Período letivo;2026-51;21/10/2025;16/03/2026;;1
 Período letivo;Graduação EAD;Período letivo;2026-51;23/02/2026;02/05/2026;;1
-Desplug (Reativa);Graduação EAD;Políticas Preditivas e de Retenção;2026-51;;;;4
-Recomeço (Preditiva);Graduação EAD;Políticas Preditivas e de Retenção;2026-51;;;;4
-Recomeço (Reativa);Graduação EAD;Políticas Preditivas e de Retenção;2026-51;;;;4
-Redesplug (Preditiva);Graduação EAD;Políticas Preditivas e de Retenção;2026-51;;;;4
 Rematrícula automática do módulo;Graduação EAD;Rematrícula automática;2026-51;01/12/2025;20/03/2026;;2
 Prazo para negociação (entrada no módulo com boleto D+2);Graduação EAD;Rematrícula automática;2026-51;16/03/2026;16/03/2026;;2
 Solicitação de Mudança de Curso - Demais Cursos;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-51;15/10/2025;10/03/2026;;3
 Solicitação de Reabertura de Matrícula - Inadimplentes;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-51;16/10/2025;11/03/2026;;3
 Solicitação de Reabertura de Matrícula - Adimplentes;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-51;21/10/2025;16/03/2026;;3
 Prazo para ajustes na secretaria - Reabertura;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-51;20/03/2026;20/03/2026;;3
-Solicitação de Cancelamento de DP/ADAP;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-51;;;;3
+Solicitação de Cancelamento de DP/ADAP;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-51;15/12/2025;30/03/2026;;3
 Solicitação de Aproveitamento de Estudos - Veteranos;Graduação EAD;Aproveitamento de Estudos;2026-52;20/02/2026;30/04/2026;;5
 Solicitação de Aproveitamento de Estudos - Candidatos Ingressantes;Graduação EAD;Aproveitamento de Estudos;2026-52;17/03/2026;13/05/2026;;5
 Solicitação de Aproveitamento de Estudos - Ingressantes;Graduação EAD;Aproveitamento de Estudos;2026-52;17/03/2026;13/05/2026;;5
@@ -60,17 +56,13 @@ Solicitação de Alteração de matrizes;Graduação EAD;Outros serviços atendi
 Abertura de turmas (rotina da Secretaria);Graduação EAD;Outros serviços atendidos pela Secretaria;2026-52;05/01/2026;05/01/2026;;9
 Período de Captação;Graduação EAD;Período letivo;2026-52;17/03/2026;18/05/2026;;1
 Período letivo;Graduação EAD;Período letivo;2026-52;04/05/2026;11/07/2026;;1
-Desplug (Reativa);Graduação EAD;Políticas Preditivas e de Retenção;2026-52;;;;4
-Recomeço (Preditiva);Graduação EAD;Políticas Preditivas e de Retenção;2026-52;;;;4
-Recomeço (Reativa);Graduação EAD;Políticas Preditivas e de Retenção;2026-52;;;;4
-Redesplug (Preditiva);Graduação EAD;Políticas Preditivas e de Retenção;2026-52;;;;4
 Rematrícula automática do módulo;Graduação EAD;Rematrícula automática;2026-52;01/02/2026;22/05/2026;;2
 Prazo para negociação (entrada no módulo com boleto D+2);Graduação EAD;Rematrícula automática;2026-52;18/05/2026;18/05/2026;;2
 Solicitação de Mudança de Curso - Demais Cursos;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-52;11/03/2026;19/05/2026;;3
 Solicitação de Reabertura de Matrícula - Adimplentes;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-52;17/03/2026;18/05/2026;;3
 Solicitação de Reabertura de Matrícula - Inadimplentes;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-52;18/03/2026;13/05/2026;;3
 Prazo para ajustes na secretaria - Reabertura;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-52;22/05/2026;22/05/2026;;3
-Solicitação de Cancelamento de DP/ADAP;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-52;;;;3
+Solicitação de Cancelamento de DP/ADAP;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-52;06/04/2026;29/06/2026;;3
 Solicitação de Aproveitamento de Estudos - Veteranos;Graduação EAD;Aproveitamento de Estudos;2026-53;01/05/2026;16/07/2026;;5
 Solicitação de Aproveitamento de Estudos - Candidatos Ingressantes;Graduação EAD;Aproveitamento de Estudos;2026-53;19/05/2026;12/08/2026;;5
 Solicitação de Aproveitamento de Estudos - Ingressantes;Graduação EAD;Aproveitamento de Estudos;2026-53;19/05/2026;12/08/2026;;5
@@ -96,17 +88,13 @@ Solicitação de Alteração de matrizes;Graduação EAD;Outros serviços atendi
 Abertura de turmas (rotina da Secretaria);Graduação EAD;Outros serviços atendidos pela Secretaria;2026-53;30/04/2026;30/04/2026;;9
 Período de Captação;Graduação EAD;Período letivo;2026-53;19/05/2026;17/08/2026;;1
 Período letivo;Graduação EAD;Período letivo;2026-53;20/07/2026;26/09/2026;;1
-Desplug (Reativa);Graduação EAD;Políticas Preditivas e de Retenção;2026-53;;;;4
-Recomeço (Preditiva);Graduação EAD;Políticas Preditivas e de Retenção;2026-53;;;;4
-Recomeço (Reativa);Graduação EAD;Políticas Preditivas e de Retenção;2026-53;;;;4
-Redesplug (Preditiva);Graduação EAD;Políticas Preditivas e de Retenção;2026-53;;;;4
 Rematrícula automática do módulo;Graduação EAD;Rematrícula automática;2026-53;06/06/2026;21/08/2026;;2
 Prazo para negociação (entrada no módulo com boleto D+2);Graduação EAD;Rematrícula automática;2026-53;17/08/2026;17/08/2026;;2
 Solicitação de Reabertura de Matrícula - Adimplentes;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-53;19/05/2026;17/08/2026;;3
 Solicitação de Mudança de Curso - Demais Cursos;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-53;20/05/2026;04/08/2026;;3
 Solicitação de Reabertura de Matrícula - Inadimplentes;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-53;20/05/2026;12/08/2026;;3
 Prazo para ajustes na secretaria - Reabertura;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-53;21/08/2026;21/08/2026;;3
-Solicitação de Cancelamento de DP/ADAP;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-53;;;;3
+Solicitação de Cancelamento de DP/ADAP;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-53;06/07/2026;28/09/2026;;3
 Solicitação de Aproveitamento de Estudos - Veteranos;Graduação EAD;Aproveitamento de Estudos;2026-54;17/07/2026;24/09/2026;;5
 Solicitação de Aproveitamento de Estudos - Candidatos Ingressantes;Graduação EAD;Aproveitamento de Estudos;2026-54;18/08/2026;14/10/2026;;5
 Solicitação de Aproveitamento de Estudos - Ingressantes;Graduação EAD;Aproveitamento de Estudos;2026-54;18/08/2026;14/10/2026;;5
@@ -132,17 +120,13 @@ Solicitação de Alteração de matrizes;Graduação EAD;Outros serviços atendi
 Abertura de turmas (rotina da Secretaria);Graduação EAD;Outros serviços atendidos pela Secretaria;2026-54;16/07/2026;16/07/2026;;9
 Período de Captação;Graduação EAD;Período letivo;2026-54;18/08/2026;19/10/2026;;1
 Período letivo;Graduação EAD;Período letivo;2026-54;28/09/2026;05/12/2026;;1
-Desplug (Reativa);Graduação EAD;Políticas Preditivas e de Retenção;2026-54;;;;4
-Recomeço (Preditiva);Graduação EAD;Políticas Preditivas e de Retenção;2026-54;;;;4
-Recomeço (Reativa);Graduação EAD;Políticas Preditivas e de Retenção;2026-54;;;;4
-Redesplug (Preditiva);Graduação EAD;Políticas Preditivas e de Retenção;2026-54;;;;4
 Rematrícula automática do módulo;Graduação EAD;Rematrícula automática;2026-54;22/08/2026;23/10/2026;;2
 Prazo para negociação (entrada no módulo com boleto D+2);Graduação EAD;Rematrícula automática;2026-54;19/10/2026;19/10/2026;;2
 Solicitação de Mudança de Curso - Demais Cursos;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-54;05/08/2026;13/10/2026;;3
 Solicitação de Reabertura de Matrícula - Inadimplentes;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-54;05/08/2026;14/10/2026;;3
 Solicitação de Reabertura de Matrícula - Adimplentes;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-54;18/08/2026;19/10/2026;;3
 Prazo para ajustes na secretaria - Reabertura;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-54;23/10/2026;23/10/2026;;3
-Solicitação de Cancelamento de DP/ADAP;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-54;;;;3
+Solicitação de Cancelamento de DP/ADAP;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-54;05/10/2026;30/11/2026;;3
 Solicitação de Aproveitamento de Estudos - Veteranos;Profissionalizantes;Aproveitamento de Estudos;2026-71;20/09/2025;19/02/2026;;5
 Solicitação de Aproveitamento de Estudos - Candidatos Ingressantes;Profissionalizantes;Aproveitamento de Estudos;2026-71;21/10/2025;11/03/2026;;5
 Solicitação de Aproveitamento de Estudos - Ingressantes;Profissionalizantes;Aproveitamento de Estudos;2026-71;21/10/2025;11/03/2026;;5
@@ -160,17 +144,12 @@ Abertura de turmas (rotina da Secretaria);Profissionalizantes;Outros serviços a
 Solicitação de Alteração de matrizes;Profissionalizantes;Outros serviços atendidos pela Secretaria;2026-71;;;;9
 Período de Captação;Profissionalizantes;Período letivo;2026-71;21/10/2025;16/03/2026;;1
 Período letivo;Profissionalizantes;Período letivo;2026-71;23/02/2026;25/04/2026;;1
-Desplug (Reativa);Profissionalizantes;Políticas Preditivas e de Retenção;2026-71;;;;4
-Recomeço (Preditiva);Profissionalizantes;Políticas Preditivas e de Retenção;2026-71;;;;4
-Recomeço (Reativa);Profissionalizantes;Políticas Preditivas e de Retenção;2026-71;;;;4
-Redesplug (Preditiva);Profissionalizantes;Políticas Preditivas e de Retenção;2026-71;;;;4
 Rematrícula automática do módulo;Profissionalizantes;Rematrícula automática;2026-71;01/02/2026;20/03/2026;;2
 Prazo para negociação (entrada no módulo com boleto D+2);Profissionalizantes;Rematrícula automática;2026-71;16/03/2026;16/03/2026;;2
 Solicitação de Mudança de Curso - Demais Cursos;Profissionalizantes;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-71;15/10/2025;10/03/2026;;3
 Solicitação de Reabertura de Matrícula - Inadimplentes;Profissionalizantes;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-71;16/10/2025;11/03/2026;;3
 Solicitação de Reabertura de Matrícula - Adimplentes;Profissionalizantes;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-71;21/10/2025;16/03/2026;;3
 Prazo para ajustes na secretaria - Reabertura;Profissionalizantes;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-71;20/03/2026;20/03/2026;;3
-Solicitação de Cancelamento de DP/ADAP;Profissionalizantes;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-71;;;;3
 Solicitação de Aproveitamento de Estudos - Veteranos;Profissionalizantes;Aproveitamento de Estudos;2026-72;20/02/2026;30/04/2026;;5
 Solicitação de Aproveitamento de Estudos - Candidatos Ingressantes;Profissionalizantes;Aproveitamento de Estudos;2026-72;17/03/2026;13/05/2026;;5
 Solicitação de Aproveitamento de Estudos - Ingressantes;Profissionalizantes;Aproveitamento de Estudos;2026-72;17/03/2026;13/05/2026;;5
@@ -184,21 +163,16 @@ Liberação de base no Portal de Negociações (Cobrança);Profissionalizantes;F
 Ação Rematrícula** (Alunos sem matrícula e adimplentes);Profissionalizantes;Fechamento de Período e Rematrícula;2026-72;22/07/2026;23/07/2026;;8
 Lançamento de notas;Profissionalizantes;Lançamento de notas;2026-72;06/07/2026;06/07/2026;;7
 Processo de Evasão;Profissionalizantes;Outras rotinas;2026-72;21/09/2026;25/09/2026;;10
-Abertura de turmas (rotina da Secretaria);Profissionalizantes;Outros serviços atendidos pela Secretaria;2026-72;;;;9
-Solicitação de Alteração de matrizes;Profissionalizantes;Outros serviços atendidos pela Secretaria;2026-72;;;;9
+Abertura de turmas (rotina da Secretaria);Profissionalizantes;Outros serviços atendidos pela Secretaria;2026-72;05/01/2026;05/01/2026;;9
+Solicitação de Alteração de matrizes;Profissionalizantes;Outros serviços atendidos pela Secretaria;2026-72;12/12/2025;12/12/2025;;9
 Período de Captação;Profissionalizantes;Período letivo;2026-72;17/03/2026;18/05/2026;;1
 Período letivo;Profissionalizantes;Período letivo;2026-72;04/05/2026;04/07/2026;;1
-Desplug (Reativa);Profissionalizantes;Políticas Preditivas e de Retenção;2026-72;;;;4
-Recomeço (Preditiva);Profissionalizantes;Políticas Preditivas e de Retenção;2026-72;;;;4
-Recomeço (Reativa);Profissionalizantes;Políticas Preditivas e de Retenção;2026-72;;;;4
-Redesplug (Preditiva);Profissionalizantes;Políticas Preditivas e de Retenção;2026-72;;;;4
 Rematrícula automática do módulo;Profissionalizantes;Rematrícula automática;2026-72;04/05/2026;22/05/2026;;2
 Prazo para negociação (entrada no módulo com boleto D+2);Profissionalizantes;Rematrícula automática;2026-72;16/03/2026;16/03/2026;;2
 Solicitação de Mudança de Curso - Demais Cursos;Profissionalizantes;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-72;11/03/2026;19/05/2026;;3
 Solicitação de Reabertura de Matrícula - Adimplentes;Profissionalizantes;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-72;17/03/2026;18/05/2026;;3
 Solicitação de Reabertura de Matrícula - Inadimplentes;Profissionalizantes;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-72;18/03/2026;13/05/2026;;3
 Prazo para ajustes na secretaria - Reabertura;Profissionalizantes;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-72;22/05/2026;22/05/2026;;3
-Solicitação de Cancelamento de DP/ADAP;Profissionalizantes;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-72;;;;3
 Solicitação de Aproveitamento de Estudos - Veteranos;Profissionalizantes;Aproveitamento de Estudos;2026-73;01/05/2026;16/07/2026;;5
 Solicitação de Aproveitamento de Estudos - Candidatos Ingressantes;Profissionalizantes;Aproveitamento de Estudos;2026-73;19/05/2026;12/08/2026;;5
 Solicitação de Aproveitamento de Estudos - Ingressantes;Profissionalizantes;Aproveitamento de Estudos;2026-73;19/05/2026;12/08/2026;;5
@@ -212,21 +186,16 @@ Liberação de base no Portal de Negociações (Cobrança);Profissionalizantes;F
 Ação Rematrícula** (Alunos sem matrícula e adimplentes);Profissionalizantes;Fechamento de Período e Rematrícula;2026-73;30/09/2026;01/10/2026;;8
 Lançamento de notas;Profissionalizantes;Lançamento de notas;2026-73;21/09/2026;21/09/2026;;7
 Processo de Evasão;Profissionalizantes;Outras rotinas;2026-73;14/12/2026;18/12/2026;;10
-Abertura de turmas (rotina da Secretaria);Profissionalizantes;Outros serviços atendidos pela Secretaria;2026-73;;;;9
-Solicitação de Alteração de matrizes;Profissionalizantes;Outros serviços atendidos pela Secretaria;2026-73;;;;9
+Abertura de turmas (rotina da Secretaria);Profissionalizantes;Outros serviços atendidos pela Secretaria;2026-73;30/04/2026;30/04/2026;;9
+Solicitação de Alteração de matrizes;Profissionalizantes;Outros serviços atendidos pela Secretaria;2026-73;23/04/2026;23/04/2026;;9
 Período de Captação;Profissionalizantes;Período letivo;2026-73;19/05/2026;17/08/2026;;1
 Período letivo;Profissionalizantes;Período letivo;2026-73;20/07/2026;19/09/2026;;1
-Desplug (Reativa);Profissionalizantes;Políticas Preditivas e de Retenção;2026-73;;;;4
-Recomeço (Preditiva);Profissionalizantes;Políticas Preditivas e de Retenção;2026-73;;;;4
-Recomeço (Reativa);Profissionalizantes;Políticas Preditivas e de Retenção;2026-73;;;;4
-Redesplug (Preditiva);Profissionalizantes;Políticas Preditivas e de Retenção;2026-73;;;;4
 Rematrícula automática do módulo;Profissionalizantes;Rematrícula automática;2026-73;20/07/2026;21/08/2026;;2
 Prazo para negociação (entrada no módulo com boleto D+2);Profissionalizantes;Rematrícula automática;2026-73;16/03/2026;16/03/2026;;2
 Solicitação de Reabertura de Matrícula - Adimplentes;Profissionalizantes;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-73;19/05/2026;17/08/2026;;3
 Solicitação de Mudança de Curso - Demais Cursos;Profissionalizantes;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-73;20/05/2026;04/08/2026;;3
 Solicitação de Reabertura de Matrícula - Inadimplentes;Profissionalizantes;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-73;20/05/2026;12/08/2026;;3
 Prazo para ajustes na secretaria - Reabertura;Profissionalizantes;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-73;21/08/2026;21/08/2026;;3
-Solicitação de Cancelamento de DP/ADAP;Profissionalizantes;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-73;;;;3
 Solicitação de Aproveitamento de Estudos - Veteranos;Profissionalizantes;Aproveitamento de Estudos;2026-74;17/07/2026;24/09/2026;;5
 Solicitação de Aproveitamento de Estudos - Candidatos Ingressantes;Profissionalizantes;Aproveitamento de Estudos;2026-74;18/08/2026;14/10/2026;;5
 Solicitação de Aproveitamento de Estudos - Ingressantes;Profissionalizantes;Aproveitamento de Estudos;2026-74;18/08/2026;14/10/2026;;5
@@ -240,21 +209,16 @@ Liberação de base no Portal de Negociações (Cobrança);Profissionalizantes;F
 Ação Rematrícula** (Alunos sem matrícula e adimplentes);Profissionalizantes;Fechamento de Período e Rematrícula;2026-74;13/12/2026;14/12/2026;;8
 Lançamento de notas;Profissionalizantes;Lançamento de notas;2026-74;30/11/2026;30/11/2026;;7
 Processo de Evasão;Profissionalizantes;Outras rotinas;2026-74;16/03/2027;20/03/2027;;10
-Abertura de turmas (rotina da Secretaria);Profissionalizantes;Outros serviços atendidos pela Secretaria;2026-74;;;;9
-Solicitação de Alteração de matrizes;Profissionalizantes;Outros serviços atendidos pela Secretaria;2026-74;;;;9
+Abertura de turmas (rotina da Secretaria);Profissionalizantes;Outros serviços atendidos pela Secretaria;2026-74;16/07/2026;16/07/2026;;9
+Solicitação de Alteração de matrizes;Profissionalizantes;Outros serviços atendidos pela Secretaria;2026-74;09/07/2026;09/07/2026;;9
 Período de Captação;Profissionalizantes;Período letivo;2026-74;18/08/2026;19/10/2026;;1
 Período letivo;Profissionalizantes;Período letivo;2026-74;28/09/2026;28/11/2026;;1
-Desplug (Reativa);Profissionalizantes;Políticas Preditivas e de Retenção;2026-74;;;;4
-Recomeço (Preditiva);Profissionalizantes;Políticas Preditivas e de Retenção;2026-74;;;;4
-Recomeço (Reativa);Profissionalizantes;Políticas Preditivas e de Retenção;2026-74;;;;4
-Redesplug (Preditiva);Profissionalizantes;Políticas Preditivas e de Retenção;2026-74;;;;4
 Rematrícula automática do módulo;Profissionalizantes;Rematrícula automática;2026-74;28/09/2026;23/10/2026;;2
 Prazo para negociação (entrada no módulo com boleto D+2);Profissionalizantes;Rematrícula automática;2026-74;16/03/2026;16/03/2026;;2
 Solicitação de Mudança de Curso - Demais Cursos;Profissionalizantes;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-74;05/08/2026;13/10/2026;;3
 Solicitação de Reabertura de Matrícula - Inadimplentes;Profissionalizantes;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-74;05/08/2026;14/10/2026;;3
 Solicitação de Reabertura de Matrícula - Adimplentes;Profissionalizantes;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-74;18/08/2026;19/10/2026;;3
 Prazo para ajustes na secretaria - Reabertura;Profissionalizantes;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-74;23/10/2026;23/10/2026;;3
-Solicitação de Cancelamento de DP/ADAP;Profissionalizantes;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-74;;;;3
 Solicitação de Aproveitamento de Estudos - Veteranos;Técnico;Aproveitamento de Estudos;2026-91;20/09/2025;19/02/2026;;5
 Solicitação de Aproveitamento de Estudos - Candidatos Ingressantes;Técnico;Aproveitamento de Estudos;2026-91;21/10/2025;11/03/2026;;5
 Solicitação de Aproveitamento de Estudos - Ingressantes;Técnico;Aproveitamento de Estudos;2026-91;21/10/2025;11/03/2026;;5
@@ -273,17 +237,12 @@ Abertura de turmas (rotina da Secretaria);Técnico;Outros serviços atendidos pe
 Solicitação de Alteração de matrizes;Técnico;Outros serviços atendidos pela Secretaria;2026-91;;;;9
 Período de Captação;Técnico;Período letivo;2026-91;21/10/2025;16/03/2026;;1
 Período letivo;Técnico;Período letivo;2026-91;23/02/2026;02/05/2026;;1
-Desplug (Reativa);Técnico;Políticas Preditivas e de Retenção;2026-91;;;;4
-Recomeço (Preditiva);Técnico;Políticas Preditivas e de Retenção;2026-91;;;;4
-Recomeço (Reativa);Técnico;Políticas Preditivas e de Retenção;2026-91;;;;4
-Redesplug (Preditiva);Técnico;Políticas Preditivas e de Retenção;2026-91;;;;4
 Rematrícula automática do módulo;Técnico;Rematrícula automática;2026-91;01/12/2025;20/03/2026;;2
 Prazo para negociação (entrada no módulo com boleto D+2);Técnico;Rematrícula automática;2026-91;16/03/2026;16/03/2026;;2
 Solicitação de Mudança de Curso - Demais Cursos;Técnico;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-91;15/10/2025;10/03/2026;;3
 Solicitação de Reabertura de Matrícula - Inadimplentes;Técnico;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-91;16/10/2025;11/03/2026;;3
 Solicitação de Reabertura de Matrícula - Adimplentes;Técnico;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-91;21/10/2025;16/03/2026;;3
 Prazo para ajustes na secretaria - Reabertura;Técnico;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-91;20/03/2026;20/03/2026;;3
-Solicitação de Cancelamento de DP/ADAP;Técnico;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-91;;;;3
 Solicitação de Aproveitamento de Estudos - Veteranos;Técnico;Aproveitamento de Estudos;2026-92;20/02/2026;30/04/2026;;5
 Solicitação de Aproveitamento de Estudos - Candidatos Ingressantes;Técnico;Aproveitamento de Estudos;2026-92;17/03/2026;13/05/2026;;5
 Solicitação de Aproveitamento de Estudos - Ingressantes;Técnico;Aproveitamento de Estudos;2026-92;17/03/2026;13/05/2026;;5
@@ -302,17 +261,12 @@ Solicitação de Alteração de matrizes;Técnico;Outros serviços atendidos pel
 Abertura de turmas (rotina da Secretaria);Técnico;Outros serviços atendidos pela Secretaria;2026-92;05/01/2026;05/01/2026;;9
 Período de Captação;Técnico;Período letivo;2026-92;17/03/2026;18/05/2026;;1
 Período letivo;Técnico;Período letivo;2026-92;04/05/2026;11/07/2026;;1
-Desplug (Reativa);Técnico;Políticas Preditivas e de Retenção;2026-92;;;;4
-Recomeço (Preditiva);Técnico;Políticas Preditivas e de Retenção;2026-92;;;;4
-Recomeço (Reativa);Técnico;Políticas Preditivas e de Retenção;2026-92;;;;4
-Redesplug (Preditiva);Técnico;Políticas Preditivas e de Retenção;2026-92;;;;4
 Rematrícula automática do módulo;Técnico;Rematrícula automática;2026-92;01/02/2026;22/05/2026;;2
 Prazo para negociação (entrada no módulo com boleto D+2);Técnico;Rematrícula automática;2026-92;18/05/2026;18/05/2026;;2
 Solicitação de Mudança de Curso - Demais Cursos;Técnico;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-92;11/03/2026;19/05/2026;;3
 Solicitação de Reabertura de Matrícula - Adimplentes;Técnico;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-92;17/03/2026;18/05/2026;;3
 Solicitação de Reabertura de Matrícula - Inadimplentes;Técnico;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-92;18/03/2026;13/05/2026;;3
 Prazo para ajustes na secretaria - Reabertura;Técnico;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-92;22/05/2026;22/05/2026;;3
-Solicitação de Cancelamento de DP/ADAP;Técnico;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-92;;;;3
 Solicitação de Aproveitamento de Estudos - Veteranos;Técnico;Aproveitamento de Estudos;2026-93;01/05/2026;16/07/2026;;5
 Solicitação de Aproveitamento de Estudos - Candidatos Ingressantes;Técnico;Aproveitamento de Estudos;2026-93;19/05/2026;12/08/2026;;5
 Solicitação de Aproveitamento de Estudos - Ingressantes;Técnico;Aproveitamento de Estudos;2026-93;19/05/2026;12/08/2026;;5
@@ -331,17 +285,12 @@ Solicitação de Alteração de matrizes;Técnico;Outros serviços atendidos pel
 Abertura de turmas (rotina da Secretaria);Técnico;Outros serviços atendidos pela Secretaria;2026-93;30/04/2026;30/04/2026;;9
 Período de Captação;Técnico;Período letivo;2026-93;19/05/2026;17/08/2026;;1
 Período letivo;Técnico;Período letivo;2026-93;20/07/2026;26/09/2026;;1
-Desplug (Reativa);Técnico;Políticas Preditivas e de Retenção;2026-93;;;;4
-Recomeço (Preditiva);Técnico;Políticas Preditivas e de Retenção;2026-93;;;;4
-Recomeço (Reativa);Técnico;Políticas Preditivas e de Retenção;2026-93;;;;4
-Redesplug (Preditiva);Técnico;Políticas Preditivas e de Retenção;2026-93;;;;4
 Rematrícula automática do módulo;Técnico;Rematrícula automática;2026-93;06/06/2026;21/08/2026;;2
 Prazo para negociação (entrada no módulo com boleto D+2);Técnico;Rematrícula automática;2026-93;17/08/2026;17/08/2026;;2
 Solicitação de Reabertura de Matrícula - Adimplentes;Técnico;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-93;19/05/2026;17/08/2026;;3
 Solicitação de Mudança de Curso - Demais Cursos;Técnico;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-93;20/05/2026;04/08/2026;;3
 Solicitação de Reabertura de Matrícula - Inadimplentes;Técnico;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-93;20/05/2026;12/08/2026;;3
 Prazo para ajustes na secretaria - Reabertura;Técnico;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-93;21/08/2026;21/08/2026;;3
-Solicitação de Cancelamento de DP/ADAP;Técnico;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-93;;;;3
 Solicitação de Aproveitamento de Estudos - Veteranos;Técnico;Aproveitamento de Estudos;2026-94;17/07/2026;24/09/2026;;5
 Solicitação de Aproveitamento de Estudos - Candidatos Ingressantes;Técnico;Aproveitamento de Estudos;2026-94;18/08/2026;14/10/2026;;5
 Solicitação de Aproveitamento de Estudos - Ingressantes;Técnico;Aproveitamento de Estudos;2026-94;18/08/2026;14/10/2026;;5
@@ -360,17 +309,12 @@ Solicitação de Alteração de matrizes;Técnico;Outros serviços atendidos pel
 Abertura de turmas (rotina da Secretaria);Técnico;Outros serviços atendidos pela Secretaria;2026-94;16/07/2026;16/07/2026;;9
 Período de Captação;Técnico;Período letivo;2026-94;18/08/2026;19/10/2026;;1
 Período letivo;Técnico;Período letivo;2026-94;28/09/2026;05/12/2026;;1
-Desplug (Reativa);Técnico;Políticas Preditivas e de Retenção;2026-94;;;;4
-Recomeço (Preditiva);Técnico;Políticas Preditivas e de Retenção;2026-94;;;;4
-Recomeço (Reativa);Técnico;Políticas Preditivas e de Retenção;2026-94;;;;4
-Redesplug (Preditiva);Técnico;Políticas Preditivas e de Retenção;2026-94;;;;4
 Rematrícula automática do módulo;Técnico;Rematrícula automática;2026-94;22/08/2026;23/10/2026;;2
 Prazo para negociação (entrada no módulo com boleto D+2);Técnico;Rematrícula automática;2026-94;19/10/2026;19/10/2026;;2
 Solicitação de Mudança de Curso - Demais Cursos;Técnico;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-94;05/08/2026;13/10/2026;;3
 Solicitação de Reabertura de Matrícula - Inadimplentes;Técnico;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-94;05/08/2026;14/10/2026;;3
 Solicitação de Reabertura de Matrícula - Adimplentes;Técnico;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-94;18/08/2026;19/10/2026;;3
 Prazo para ajustes na secretaria - Reabertura;Técnico;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-94;23/10/2026;23/10/2026;;3
-Solicitação de Cancelamento de DP/ADAP;Técnico;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-94;;;;3
 Solicitação de Aproveitamento de Estudos - Veteranos;Pós-graduação Híbrida;Aproveitamento de Estudos;2026-81;20/09/2025;19/02/2026;;5
 Solicitação de Aproveitamento de Estudos - Candidatos Ingressantes;Pós-graduação Híbrida;Aproveitamento de Estudos;2026-81;21/10/2025;11/03/2026;;5
 Solicitação de Aproveitamento de Estudos - Ingressantes;Pós-graduação Híbrida;Aproveitamento de Estudos;2026-81;21/10/2025;11/03/2026;;5
@@ -388,17 +332,12 @@ Abertura de turmas (rotina da Secretaria);Pós-graduação Híbrida;Outros servi
 Solicitação de Alteração de matrizes;Pós-graduação Híbrida;Outros serviços atendidos pela Secretaria;2026-81;;;;9
 Período de Captação;Pós-graduação Híbrida;Período letivo;2026-81;21/10/2025;16/03/2026;;1
 Período letivo;Pós-graduação Híbrida;Período letivo;2026-81;23/02/2026;03/05/2026;;1
-Desplug (Reativa);Pós-graduação Híbrida;Políticas Preditivas e de Retenção;2026-81;;;;4
-Recomeço (Preditiva);Pós-graduação Híbrida;Políticas Preditivas e de Retenção;2026-81;;;;4
-Recomeço (Reativa);Pós-graduação Híbrida;Políticas Preditivas e de Retenção;2026-81;;;;4
-Redesplug (Preditiva);Pós-graduação Híbrida;Políticas Preditivas e de Retenção;2026-81;;;;4
 Rematrícula automática do módulo;Pós-graduação Híbrida;Rematrícula automática;2026-81;01/12/2025;20/03/2026;;2
 Prazo para negociação (entrada no módulo com boleto D+2);Pós-graduação Híbrida;Rematrícula automática;2026-81;16/03/2026;16/03/2026;;2
 Solicitação de Mudança de Curso - Demais Cursos;Pós-graduação Híbrida;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-81;15/10/2025;10/03/2026;;3
 Solicitação de Reabertura de Matrícula - Inadimplentes;Pós-graduação Híbrida;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-81;16/10/2025;11/03/2026;;3
 Solicitação de Reabertura de Matrícula - Adimplentes;Pós-graduação Híbrida;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-81;21/10/2025;16/03/2026;;3
 Prazo para ajustes na secretaria - Reabertura;Pós-graduação Híbrida;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-81;20/03/2026;20/03/2026;;3
-Solicitação de Cancelamento de DP/ADAP;Pós-graduação Híbrida;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-81;;;;3
 Solicitação de Aproveitamento de Estudos - Veteranos;Pós-graduação Híbrida;Aproveitamento de Estudos;2026-82;20/02/2026;30/04/2026;;5
 Solicitação de Aproveitamento de Estudos - Candidatos Ingressantes;Pós-graduação Híbrida;Aproveitamento de Estudos;2026-82;17/03/2026;13/05/2026;;5
 Solicitação de Aproveitamento de Estudos - Ingressantes;Pós-graduação Híbrida;Aproveitamento de Estudos;2026-82;17/03/2026;13/05/2026;;5
@@ -416,17 +355,12 @@ Solicitação de Alteração de matrizes;Pós-graduação Híbrida;Outros servi�
 Abertura de turmas (rotina da Secretaria);Pós-graduação Híbrida;Outros serviços atendidos pela Secretaria;2026-82;05/01/2026;05/01/2026;;9
 Período de Captação;Pós-graduação Híbrida;Período letivo;2026-82;17/03/2026;18/05/2026;;1
 Período letivo;Pós-graduação Híbrida;Período letivo;2026-82;04/05/2026;12/07/2026;;1
-Desplug (Reativa);Pós-graduação Híbrida;Políticas Preditivas e de Retenção;2026-82;;;;4
-Recomeço (Preditiva);Pós-graduação Híbrida;Políticas Preditivas e de Retenção;2026-82;;;;4
-Recomeço (Reativa);Pós-graduação Híbrida;Políticas Preditivas e de Retenção;2026-82;;;;4
-Redesplug (Preditiva);Pós-graduação Híbrida;Políticas Preditivas e de Retenção;2026-82;;;;4
 Rematrícula automática do módulo;Pós-graduação Híbrida;Rematrícula automática;2026-82;01/02/2026;22/05/2026;;2
 Prazo para negociação (entrada no módulo com boleto D+2);Pós-graduação Híbrida;Rematrícula automática;2026-82;18/05/2026;18/05/2026;;2
 Solicitação de Mudança de Curso - Demais Cursos;Pós-graduação Híbrida;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-82;11/03/2026;19/05/2026;;3
 Solicitação de Reabertura de Matrícula - Adimplentes;Pós-graduação Híbrida;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-82;17/03/2026;18/05/2026;;3
 Solicitação de Reabertura de Matrícula - Inadimplentes;Pós-graduação Híbrida;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-82;18/03/2026;13/05/2026;;3
 Prazo para ajustes na secretaria - Reabertura;Pós-graduação Híbrida;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-82;22/05/2026;22/05/2026;;3
-Solicitação de Cancelamento de DP/ADAP;Pós-graduação Híbrida;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-82;;;;3
 Solicitação de Aproveitamento de Estudos - Veteranos;Pós-graduação Híbrida;Aproveitamento de Estudos;2026-83;01/05/2026;16/07/2026;;5
 Solicitação de Aproveitamento de Estudos - Candidatos Ingressantes;Pós-graduação Híbrida;Aproveitamento de Estudos;2026-83;19/05/2026;12/08/2026;;5
 Solicitação de Aproveitamento de Estudos - Ingressantes;Pós-graduação Híbrida;Aproveitamento de Estudos;2026-83;19/05/2026;12/08/2026;;5
@@ -444,17 +378,12 @@ Solicitação de Alteração de matrizes;Pós-graduação Híbrida;Outros servi�
 Abertura de turmas (rotina da Secretaria);Pós-graduação Híbrida;Outros serviços atendidos pela Secretaria;2026-83;30/04/2026;30/04/2026;;9
 Período de Captação;Pós-graduação Híbrida;Período letivo;2026-83;19/05/2026;17/08/2026;;1
 Período letivo;Pós-graduação Híbrida;Período letivo;2026-83;20/07/2026;20/09/2026;;1
-Desplug (Reativa);Pós-graduação Híbrida;Políticas Preditivas e de Retenção;2026-83;;;;4
-Recomeço (Preditiva);Pós-graduação Híbrida;Políticas Preditivas e de Retenção;2026-83;;;;4
-Recomeço (Reativa);Pós-graduação Híbrida;Políticas Preditivas e de Retenção;2026-83;;;;4
-Redesplug (Preditiva);Pós-graduação Híbrida;Políticas Preditivas e de Retenção;2026-83;;;;4
 Rematrícula automática do módulo;Pós-graduação Híbrida;Rematrícula automática;2026-83;06/06/2026;21/08/2026;;2
 Prazo para negociação (entrada no módulo com boleto D+2);Pós-graduação Híbrida;Rematrícula automática;2026-83;17/08/2026;17/08/2026;;2
 Solicitação de Reabertura de Matrícula - Adimplentes;Pós-graduação Híbrida;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-83;19/05/2026;17/08/2026;;3
 Solicitação de Mudança de Curso - Demais Cursos;Pós-graduação Híbrida;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-83;20/05/2026;04/08/2026;;3
 Solicitação de Reabertura de Matrícula - Inadimplentes;Pós-graduação Híbrida;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-83;20/05/2026;12/08/2026;;3
 Prazo para ajustes na secretaria - Reabertura;Pós-graduação Híbrida;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-83;21/08/2026;21/08/2026;;3
-Solicitação de Cancelamento de DP/ADAP;Pós-graduação Híbrida;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-83;;;;3
 Solicitação de Aproveitamento de Estudos - Veteranos;Pós-graduação Híbrida;Aproveitamento de Estudos;2026-84;17/07/2026;24/09/2026;;5
 Solicitação de Aproveitamento de Estudos - Candidatos Ingressantes;Pós-graduação Híbrida;Aproveitamento de Estudos;2026-84;18/08/2026;14/10/2026;;5
 Solicitação de Aproveitamento de Estudos - Ingressantes;Pós-graduação Híbrida;Aproveitamento de Estudos;2026-84;18/08/2026;14/10/2026;;5
@@ -472,17 +401,12 @@ Solicitação de Alteração de matrizes;Pós-graduação Híbrida;Outros servi�
 Abertura de turmas (rotina da Secretaria);Pós-graduação Híbrida;Outros serviços atendidos pela Secretaria;2026-84;16/07/2026;16/07/2026;;9
 Período de Captação;Pós-graduação Híbrida;Período letivo;2026-84;18/08/2026;19/10/2026;;1
 Período letivo;Pós-graduação Híbrida;Período letivo;2026-84;28/09/2026;06/12/2026;;1
-Desplug (Reativa);Pós-graduação Híbrida;Políticas Preditivas e de Retenção;2026-84;;;;4
-Recomeço (Preditiva);Pós-graduação Híbrida;Políticas Preditivas e de Retenção;2026-84;;;;4
-Recomeço (Reativa);Pós-graduação Híbrida;Políticas Preditivas e de Retenção;2026-84;;;;4
-Redesplug (Preditiva);Pós-graduação Híbrida;Políticas Preditivas e de Retenção;2026-84;;;;4
 Rematrícula automática do módulo;Pós-graduação Híbrida;Rematrícula automática;2026-84;22/08/2026;23/10/2026;;2
 Prazo para negociação (entrada no módulo com boleto D+2);Pós-graduação Híbrida;Rematrícula automática;2026-84;19/10/2026;19/10/2026;;2
 Solicitação de Mudança de Curso - Demais Cursos;Pós-graduação Híbrida;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-84;05/08/2026;13/10/2026;;3
 Solicitação de Reabertura de Matrícula - Inadimplentes;Pós-graduação Híbrida;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-84;05/08/2026;14/10/2026;;3
 Solicitação de Reabertura de Matrícula - Adimplentes;Pós-graduação Híbrida;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-84;18/08/2026;19/10/2026;;3
 Prazo para ajustes na secretaria - Reabertura;Pós-graduação Híbrida;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-84;23/10/2026;23/10/2026;;3
-Solicitação de Cancelamento de DP/ADAP;Pós-graduação Híbrida;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-84;;;;3
 Período letivo;Presencial;Período letivo;2026-1;09/02/2026;11/07/2026;;1
 Semana de provas - 1º bimestre;Presencial;Provas;2026-1;13/04/2026;17/04/2026;;3
 Semana de provas - 2º bimestre;Presencial;Provas;2026-1;22/06/2026;26/06/2026;;3
@@ -503,3 +427,43 @@ Geração de pré-matrícula para 2026-2;Presencial;Fechamento de Período e Rem
 Geração de pré-matrícula para 2027-1;Presencial;Fechamento de Período e Rematrícula;2026-2;17/12/2026;17/12/2026;;5
 Fechamento de Período e Atualização de série para 2026-2;Presencial;Fechamento de Período e Rematrícula;2026-1;14/07/2026;25/07/2026;;5
 Fechamento de Período e Atualização de série para 2027-1;Presencial;Fechamento de Período e Rematrícula;2026-2;21/12/2026;31/01/2027;;5
+Recomeço ;Graduação EAD;Políticas Preditivas e de Retenção;2026-51;01/12/2025;23/03/2026;;4
+Desplug ;Graduação EAD;Políticas Preditivas e de Retenção;2026-51;19/01/2026;25/04/2026;;4
+Redesplug;Graduação EAD;Políticas Preditivas e de Retenção;2026-51;19/01/2026;25/04/2026;;4
+Cancelamento de DP/AD estendido ;Graduação EAD;Políticas Preditivas e de Retenção;2026-51;31/03/2026;08/04/2026;;4
+Recomeço ;Graduação EAD;Políticas Preditivas e de Retenção;2026-52;30/03/2026;01/06/2026;;4
+Desplug ;Graduação EAD;Políticas Preditivas e de Retenção;2026-52;27/04/2026;04/07/2026;;4
+Redesplug;Graduação EAD;Políticas Preditivas e de Retenção;2026-52;27/04/2026;04/07/2026;;4
+Cancelamento de DP/AD estendido ;Graduação EAD;Políticas Preditivas e de Retenção;2026-52;30/06/2026;08/07/2026;;4
+Recomeço ;Graduação EAD;Políticas Preditivas e de Retenção;2026-53;08/06/2026;17/08/2026;;4
+Desplug ;Graduação EAD;Políticas Preditivas e de Retenção;2026-53;06/07/2026;19/09/2026;;4
+Redesplug;Graduação EAD;Políticas Preditivas e de Retenção;2026-53;06/07/2026;19/09/2026;;4
+Cancelamento de DP/AD estendido ;Graduação EAD;Políticas Preditivas e de Retenção;2026-53;29/09/2026;07/10/2026;;4
+Recomeço ;Graduação EAD;Políticas Preditivas e de Retenção;2026-54;31/08/2026;26/10/2026;;4
+Desplug ;Graduação EAD;Políticas Preditivas e de Retenção;2026-54;21/09/2026;28/11/2026;;4
+Redesplug;Graduação EAD;Políticas Preditivas e de Retenção;2026-54;21/09/2026;28/11/2026;;4
+Cancelamento de DP/AD estendido ;Graduação EAD;Políticas Preditivas e de Retenção;2026-54;01/12/2026;09/12/2026;;4
+Recomeço ;Técnico;Políticas Preditivas e de Retenção;2026-91;01/12/2025;23/03/2026;;4
+Desplug ;Técnico;Políticas Preditivas e de Retenção;2026-91;19/01/2026;25/04/2026;;4
+Redesplug;Técnico;Políticas Preditivas e de Retenção;2026-91;19/01/2026;25/04/2026;;4
+Recomeço ;Técnico;Políticas Preditivas e de Retenção;2026-92;30/03/2026;01/06/2026;;4
+Desplug ;Técnico;Políticas Preditivas e de Retenção;2026-92;27/04/2026;04/07/2026;;4
+Redesplug;Técnico;Políticas Preditivas e de Retenção;2026-92;27/04/2026;04/07/2026;;4
+Recomeço ;Técnico;Políticas Preditivas e de Retenção;2026-93;08/06/2026;17/08/2026;;4
+Desplug ;Técnico;Políticas Preditivas e de Retenção;2026-93;06/07/2026;19/09/2026;;4
+Redesplug;Técnico;Políticas Preditivas e de Retenção;2026-93;06/07/2026;19/09/2026;;4
+Recomeço ;Técnico;Políticas Preditivas e de Retenção;2026-94;31/08/2026;26/10/2026;;4
+Desplug ;Técnico;Políticas Preditivas e de Retenção;2026-94;21/09/2026;28/11/2026;;4
+Redesplug;Técnico;Políticas Preditivas e de Retenção;2026-94;21/09/2026;28/11/2026;;4
+Recomeço ;Profissionalizantes;Políticas Preditivas e de Retenção;2026-71;01/12/2025;23/03/2026;;4
+Desplug ;Profissionalizantes;Políticas Preditivas e de Retenção;2026-71;19/01/2026;25/04/2026;;4
+Redesplug;Profissionalizantes;Políticas Preditivas e de Retenção;2026-71;19/01/2026;25/04/2026;;4
+Recomeço ;Profissionalizantes;Políticas Preditivas e de Retenção;2026-72;30/03/2026;01/06/2026;;4
+Desplug ;Profissionalizantes;Políticas Preditivas e de Retenção;2026-72;27/04/2026;04/07/2026;;4
+Redesplug;Profissionalizantes;Políticas Preditivas e de Retenção;2026-72;27/04/2026;04/07/2026;;4
+Recomeço ;Profissionalizantes;Políticas Preditivas e de Retenção;2026-73;08/06/2026;17/08/2026;;4
+Desplug ;Profissionalizantes;Políticas Preditivas e de Retenção;2026-73;06/07/2026;19/09/2026;;4
+Redesplug;Profissionalizantes;Políticas Preditivas e de Retenção;2026-73;06/07/2026;19/09/2026;;4
+Recomeço ;Profissionalizantes;Políticas Preditivas e de Retenção;2026-74;31/08/2026;26/10/2026;;4
+Desplug ;Profissionalizantes;Políticas Preditivas e de Retenção;2026-74;21/09/2026;28/11/2026;;4
+Redesplug;Profissionalizantes;Políticas Preditivas e de Retenção;2026-74;21/09/2026;28/11/2026;;4
