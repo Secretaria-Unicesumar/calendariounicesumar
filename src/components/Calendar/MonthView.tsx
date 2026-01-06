@@ -24,7 +24,7 @@ export const MonthView = ({ currentDate, events, onDateChange, onDayClick, selec
     'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'
   ];
   
-  const weekDays = ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb'];
+  const weekDays = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado'];
   
   const prevMonth = () => {
     const newDate = new Date(year, month - 1, 1);
