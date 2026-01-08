@@ -18,7 +18,7 @@ const Index = () => {
   const [events, setEvents] = useState<CalendarEvent[]>([]);
   const [currentDate, setCurrentDate] = useState(new Date());
   const [viewMode, setViewMode] = useState<'month' | 'year' | 'list'>('month');
-  const [selectedDate, setSelectedDate] = useState<Date | null>(null);
+  const [selectedDate, setSelectedDate] = useState<Date>(new Date());
   const [selectedModulos, setSelectedModulos] = useState<string[]>([]);
   const [selectedCategorias, setSelectedCategorias] = useState<string[]>([]);
   const [selectedProdutos, setSelectedProdutos] = useState<string[]>([]);
@@ -173,7 +173,7 @@ const Index = () => {
             </div>
           </div>
           <p className="text-muted-foreground text-sm sm:text-base">
-            Visualize e gerencie eventos administrativos por módulo e categoria
+            As datas dispostas neste calendário são previsões e estão sujeitas a mudança.
           </p>
         </header>
         
@@ -229,7 +229,7 @@ const Index = () => {
                 date={selectedDate}
                 events={dayEvents}
                 allModulos={availableModulos}
-                onClose={() => setSelectedDate(null)}
+                onClose={() => setSelectedDate(new Date())}
               />
             </div>
           )}

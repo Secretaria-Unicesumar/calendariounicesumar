@@ -6,6 +6,7 @@ export interface CalendarEvent {
   dataInicio: Date;
   dataFim: Date;
   ordem: number;
+  visivel: string;
 }
 
 export const parseCSV = async (filePath: string): Promise<CalendarEvent[]> => {
@@ -25,8 +26,13 @@ export const parseCSV = async (filePath: string): Promise<CalendarEvent[]> => {
       const line = lines[i];
       const parts = line.split(';');
       
-      if (parts.length >= 6) {
-        const [atividade, produto, categoria, modulo, dataInicioStr, dataFimStr, , ordemStr] = parts;
+      if (parts.length >= 9) {
+        const [atividade, produto, categoria, modulo, dataInicioStr, dataFimStr, , ordemStr, visivelStr] = parts;
+        
+        // Only include events marked as visible (Visivel = "S")
+        if (visivelStr && visivelStr.trim() !== 'S') {
+          continue;
+        }
         
         // Parse dates in DD/MM/YYYY format
         const parseDate = (dateStr: string): Date => {
@@ -42,6 +48,7 @@ export const parseCSV = async (filePath: string): Promise<CalendarEvent[]> => {
           dataInicio: parseDate(dataInicioStr),
           dataFim: parseDate(dataFimStr),
           ordem: ordemStr ? parseInt(ordemStr.trim()) || 0 : 0,
+          visivel: visivelStr ? visivelStr.trim() : '',
         });
       }
     }
