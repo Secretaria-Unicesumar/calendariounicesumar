@@ -251,7 +251,7 @@ export const printCalendar = async (events: CalendarEvent[], allModulos: string[
         .event-name { color: #555; }
         .footer { margin-top: 20px; padding: 15px; background-color: #1e293b; border-radius: 6px; }
         .footer-qr-row { display: flex; align-items: center; justify-content: space-between; gap: 15px; margin-bottom: 15px; padding-bottom: 12px; border-bottom: 1px solid #334155; }
-        .footer-text { font-size: 9px; color: #cbd5e1; flex: 1; }
+        .footer-text { font-size: 12px; color: #cbd5e1; flex: 1; }
         .footer-text a { color: #60a5fa; text-decoration: none; }
         .qr-code { width: 80px; height: 80px; background: white; padding: 4px; border-radius: 4px; }
         .footer-branding { display: flex; align-items: center; justify-content: space-between; }
@@ -259,7 +259,7 @@ export const printCalendar = async (events: CalendarEvent[], allModulos: string[
         .footer-logos img { height: 30px; object-fit: contain; }
         .footer-logos img.logo-secretaria { height: 40px; width: 40px; }
         .footer-logos img.logo-csc { height: 30px; width: 30px; }
-        .footer-copyright { font-size: 8px; color: #cbd5e1; text-align: right; }
+        .footer-copyright { font-size: 12px; color: #cbd5e1; text-align: right; }
         @media print {
           body { padding: 5mm; }
           .module { break-inside: avoid; }
@@ -314,7 +314,7 @@ export const printCalendar = async (events: CalendarEvent[], allModulos: string[
       </div>
       <div class="footer">
         <div class="footer-qr-row">
-          <p class="footer-text">O calendário atualizado pode ser consultado através do link: <a href="https://secretaria-unicesumar.github.io/calendariounicesumar/">https://secretaria-unicesumar.github.io/calendariounicesumar/</a> ou no QR Code ao lado.</p>
+          <p class="footer-text">As datas dispostas neste calendário são previsões e estão sujeitas a mudança.<br/>O calendário atualizado pode ser consultado através do link: <a href="https://secretaria-unicesumar.github.io/calendariounicesumar/">https://secretaria-unicesumar.github.io/calendariounicesumar/</a> ou no QR Code ao lado.</p>
           <img class="qr-code" src="https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://secretaria-unicesumar.github.io/calendariounicesumar/" alt="QR Code" />
         </div>
         <div class="footer-branding">
