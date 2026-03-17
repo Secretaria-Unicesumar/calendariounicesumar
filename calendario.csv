@@ -23,12 +23,12 @@ Processo de Evasão;Graduação EAD;Outras rotinas;2026-51;06/07/2026;10/07/2026;;1
 Abertura de turmas (rotina da Secretaria);Graduação EAD;Outros serviços atendidos pela Secretaria;2026-51;;;;9;S
 Solicitação de Alteração de matrizes;Graduação EAD;Outros serviços atendidos pela Secretaria;2026-51;;;;9;S
 Período letivo;Graduação EAD;Período letivo;2026-51;23/02/2026;02/05/2026;;1;S
-Rematrícula automática do módulo;Graduação EAD;Rematrícula automática;2026-51;01/12/2025;20/03/2026;;2;S
+Rematrícula automática do módulo;Graduação EAD;Rematrícula automática;2026-51;01/12/2025;23/03/2026;;2;S
 Prazo para negociação (entrada no módulo com boleto D+2);Graduação EAD;Rematrícula automática;2026-51;16/03/2026;16/03/2026;;2;S
 Solicitação de Mudança de Curso - Demais Cursos;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-51;15/10/2025;10/03/2026;;3;S
-Solicitação de Reabertura de Matrícula - Inadimplentes;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-51;16/10/2025;11/03/2026;;3;S
-Solicitação de Reabertura de Matrícula - Adimplentes;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-51;21/10/2025;16/03/2026;;3;S
-Prazo para ajustes na secretaria - Reabertura;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-51;20/03/2026;20/03/2026;;3;S
+Solicitação de Reabertura de Matrícula - Inadimplentes;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-51;16/10/2025;18/03/2026;;3;S
+Solicitação de Reabertura de Matrícula - Adimplentes;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-51;21/10/2025;23/03/2026;;3;S
+Prazo para ajustes na secretaria - Reabertura;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-51;20/03/2026;27/03/2026;;3;S
 Solicitação de Cancelamento de DP/ADAP;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-51;15/12/2025;30/03/2026;;3;S
 Solicitação de Aproveitamento de Estudos - Veteranos;Graduação EAD;Aproveitamento de Estudos;2026-52;20/02/2026;30/04/2026;;5;S
 Solicitação de Aproveitamento de Estudos - Candidatos Ingressantes;Graduação EAD;Aproveitamento de Estudos;2026-52;17/03/2026;13/05/2026;;5;S
@@ -54,10 +54,10 @@ Processo de Evasão;Graduação EAD;Outras rotinas;2026-52;21/09/2026;25/09/2026;;1
 Solicitação de Alteração de matrizes;Graduação EAD;Outros serviços atendidos pela Secretaria;2026-52;12/12/2025;12/12/2025;;9;S
 Abertura de turmas (rotina da Secretaria);Graduação EAD;Outros serviços atendidos pela Secretaria;2026-52;05/01/2026;05/01/2026;;9;S
 Período letivo;Graduação EAD;Período letivo;2026-52;04/05/2026;11/07/2026;;1;S
-Rematrícula automática do módulo;Graduação EAD;Rematrícula automática;2026-52;01/02/2026;22/05/2026;;2;S
+Rematrícula automática do módulo;Graduação EAD;Rematrícula automática;2026-52;24/03/2026;22/05/2026;;2;S
 Prazo para negociação (entrada no módulo com boleto D+2);Graduação EAD;Rematrícula automática;2026-52;18/05/2026;18/05/2026;;2;S
 Solicitação de Mudança de Curso - Demais Cursos;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-52;11/03/2026;19/05/2026;;3;S
-Solicitação de Reabertura de Matrícula - Adimplentes;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-52;17/03/2026;18/05/2026;;3;
+Solicitação de Reabertura de Matrícula - Adimplentes;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-52;24/03/2026;18/05/2026;;3;
 Solicitação de Reabertura de Matrícula - Inadimplentes;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-52;18/03/2026;13/05/2026;;3;
 Prazo para ajustes na secretaria - Reabertura;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-52;22/05/2026;22/05/2026;;3;
 Solicitação de Cancelamento de DP/ADAP;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-52;06/04/2026;29/06/2026;;3;S
@@ -139,16 +139,16 @@ Processo de Evasão;Profissionalizantes;Outras rotinas;2026-71;06/07/2026;10/07/2
 Abertura de turmas (rotina da Secretaria);Profissionalizantes;Outros serviços atendidos pela Secretaria;2026-71;;;;9;S
 Solicitação de Alteração de matrizes;Profissionalizantes;Outros serviços atendidos pela Secretaria;2026-71;;;;9;S
 Período letivo;Profissionalizantes;Período letivo;2026-71;23/02/2026;25/04/2026;;1;S
-Rematrícula automática do módulo;Profissionalizantes;Rematrícula automática;2026-71;01/02/2026;20/03/2026;;2;S
+Rematrícula automática do módulo;Profissionalizantes;Rematrícula automática;2026-71;01/02/2026;23/03/2026;;2;S
 Prazo para negociação (entrada no módulo com boleto D+2);Profissionalizantes;Rematrícula automática;2026-71;16/03/2026;16/03/2026;;2;S
 Solicitação de Mudança de Curso - Engenharias;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-51;26/09/2025;19/02/2026;;3;S
 Solicitação de Mudança de Curso - Engenharias;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-52;20/02/2026;30/04/2026;;3;S
 Solicitação de Mudança de Curso - Engenharias;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-53;01/05/2026;16/07/2026;;3;S
 Solicitação de Mudança de Curso - Engenharias;Graduação EAD;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-54;17/07/2026;24/09/2026;;3;S
 Solicitação de Mudança de Curso;Profissionalizantes;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-71;15/10/2025;10/03/2026;;3;S
-Solicitação de Reabertura de Matrícula - Inadimplentes;Profissionalizantes;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-71;16/10/2025;11/03/2026;;3;S
-Solicitação de Reabertura de Matrícula - Adimplentes;Profissionalizantes;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-71;21/10/2025;16/03/2026;;3;S
-Prazo para ajustes na secretaria - Reabertura;Profissionalizantes;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-71;20/03/2026;20/03/2026;;3;S
+Solicitação de Reabertura de Matrícula - Inadimplentes;Profissionalizantes;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-71;16/10/2025;18/03/2026;;3;S
+Solicitação de Reabertura de Matrícula - Adimplentes;Profissionalizantes;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-71;21/10/2025;23/03/2026;;3;S
+Prazo para ajustes na secretaria - Reabertura;Profissionalizantes;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-71;20/03/2026;27/03/2026;;3;S
 Solicitação de Aproveitamento de Estudos - Veteranos;Profissionalizantes;Aproveitamento de Estudos;2026-72;20/02/2026;30/04/2026;;5;S
 Solicitação de Aproveitamento de Estudos - Candidatos Ingressantes;Profissionalizantes;Aproveitamento de Estudos;2026-72;17/03/2026;13/05/2026;;5;S
 Solicitação de Aproveitamento de Estudos - Ingressantes;Profissionalizantes;Aproveitamento de Estudos;2026-72;17/03/2026;13/05/2026;;5;S
@@ -168,7 +168,7 @@ Período letivo;Profissionalizantes;Período letivo;2026-72;04/05/2026;04/07/2026;
 Rematrícula automática do módulo;Profissionalizantes;Rematrícula automática;2026-72;04/05/2026;22/05/2026;;2;S
 Prazo para negociação (entrada no módulo com boleto D+2);Profissionalizantes;Rematrícula automática;2026-72;16/03/2026;16/03/2026;;2;S
 Solicitação de Mudança de Curso;Profissionalizantes;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-72;11/03/2026;19/05/2026;;3;S
-Solicitação de Reabertura de Matrícula - Adimplentes;Profissionalizantes;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-72;17/03/2026;18/05/2026;;3;
+Solicitação de Reabertura de Matrícula - Adimplentes;Profissionalizantes;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-72;24/03/2026;18/05/2026;;3;
 Solicitação de Reabertura de Matrícula - Inadimplentes;Profissionalizantes;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-72;18/03/2026;13/05/2026;;3;
 Prazo para ajustes na secretaria - Reabertura;Profissionalizantes;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-72;22/05/2026;22/05/2026;;3;
 Solicitação de Aproveitamento de Estudos - Veteranos;Profissionalizantes;Aproveitamento de Estudos;2026-73;01/05/2026;16/07/2026;;5;S
@@ -232,12 +232,12 @@ Processo de Evasão;Técnico;Outras rotinas;2026-91;06/07/2026;10/07/2026;;10;S
 Abertura de turmas (rotina da Secretaria);Técnico;Outros serviços atendidos pela Secretaria;2026-91;;;;9;S
 Solicitação de Alteração de matrizes;Técnico;Outros serviços atendidos pela Secretaria;2026-91;;;;9;S
 Período letivo;Técnico;Período letivo;2026-91;23/02/2026;02/05/2026;;1;S
-Rematrícula automática do módulo;Técnico;Rematrícula automática;2026-91;01/12/2025;20/03/2026;;2;S
+Rematrícula automática do módulo;Técnico;Rematrícula automática;2026-91;01/12/2025;23/03/2026;;2;S
 Prazo para negociação (entrada no módulo com boleto D+2);Técnico;Rematrícula automática;2026-91;16/03/2026;16/03/2026;;2;S
 Solicitação de Mudança de Curso;Técnico;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-91;15/10/2025;10/03/2026;;3;S
-Solicitação de Reabertura de Matrícula - Inadimplentes;Técnico;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-91;16/10/2025;11/03/2026;;3;S
-Solicitação de Reabertura de Matrícula - Adimplentes;Técnico;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-91;21/10/2025;16/03/2026;;3;S
-Prazo para ajustes na secretaria - Reabertura;Técnico;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-91;20/03/2026;20/03/2026;;3;S
+Solicitação de Reabertura de Matrícula - Inadimplentes;Técnico;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-91;16/10/2025;18/03/2026;;3;S
+Solicitação de Reabertura de Matrícula - Adimplentes;Técnico;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-91;21/10/2025;23/03/2026;;3;S
+Prazo para ajustes na secretaria - Reabertura;Técnico;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-91;20/03/2026;27/03/2026;;3;S
 Solicitação de Aproveitamento de Estudos - Veteranos;Técnico;Aproveitamento de Estudos;2026-92;20/02/2026;30/04/2026;;5;S
 Solicitação de Aproveitamento de Estudos - Candidatos Ingressantes;Técnico;Aproveitamento de Estudos;2026-92;17/03/2026;13/05/2026;;5;S
 Solicitação de Aproveitamento de Estudos - Ingressantes;Técnico;Aproveitamento de Estudos;2026-92;17/03/2026;13/05/2026;;5;S
@@ -255,10 +255,10 @@ Processo de Evasão;Técnico;Outras rotinas;2026-92;21/09/2026;25/09/2026;;10;S
 Solicitação de Alteração de matrizes;Técnico;Outros serviços atendidos pela Secretaria;2026-92;12/12/2025;12/12/2025;;9;S
 Abertura de turmas (rotina da Secretaria);Técnico;Outros serviços atendidos pela Secretaria;2026-92;05/01/2026;05/01/2026;;9;S
 Período letivo;Técnico;Período letivo;2026-92;04/05/2026;11/07/2026;;1;S
-Rematrícula automática do módulo;Técnico;Rematrícula automática;2026-92;01/02/2026;22/05/2026;;2;S
+Rematrícula automática do módulo;Técnico;Rematrícula automática;2026-92;24/03/2026;22/05/2026;;2;S
 Prazo para negociação (entrada no módulo com boleto D+2);Técnico;Rematrícula automática;2026-92;18/05/2026;18/05/2026;;2;S
 Solicitação de Mudança de Curso;Técnico;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-92;11/03/2026;19/05/2026;;3;S
-Solicitação de Reabertura de Matrícula - Adimplentes;Técnico;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-92;17/03/2026;18/05/2026;;3;
+Solicitação de Reabertura de Matrícula - Adimplentes;Técnico;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-92;24/03/2026;18/05/2026;;3;
 Solicitação de Reabertura de Matrícula - Inadimplentes;Técnico;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-92;18/03/2026;13/05/2026;;3;
 Prazo para ajustes na secretaria - Reabertura;Técnico;Serviços atendidos pelo CSC - Secretaria e Financeiro;2026-92;22/05/2026;22/05/2026;;3;
 Solicitação de Aproveitamento de Estudos - Veteranos;Técnico;Aproveitamento de Estudos;2026-93;01/05/2026;16/07/2026;;5;S
