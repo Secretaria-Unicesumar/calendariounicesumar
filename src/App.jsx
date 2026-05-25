@@ -139,8 +139,8 @@ function App() {
       <header className="animate-fade-in">
         <div>
           <div className="logo-section">
-            <img src="/logo_blue.png" alt="Unicesumar" className="logo-img logo-light-only" />
-            <img src="/logo_white.png" alt="Unicesumar" className="logo-img logo-dark-only" />
+            <img src="./logo_blue.png" alt="Unicesumar" className="logo-img logo-light-only" />
+            <img src="./logo_white.png" alt="Unicesumar" className="logo-img logo-dark-only" />
             {/* BADGE DE CONEXÃO DO GOOGLE SHEETS */}
             <div className={`sheets-sync-badge ${syncStatus}`}>
               {syncStatus === 'loading' && (
