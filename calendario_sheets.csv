@@ -1,0 +1,457 @@
+Ano,Produto,Categoria,Evento,Coluna,Inicio,Fim
+2026,Graduação EAD,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Veteranos,51,20/09/2025,19/02/2026
+2026,Graduação EAD,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Candidatos Ingressantes,51,21/10/2025,11/03/2026
+2026,Graduação EAD,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Ingressantes,51,21/10/2025,11/03/2026
+2026,Graduação EAD,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Veteranos,51,21/02/2026,21/02/2026
+2026,Graduação EAD,Aproveitamento de Estudos,Prazo para ajustes na secretaria - Aproveitamento - Veteranos,51,24/02/2026,24/02/2026
+2026,Graduação EAD,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Candidatos Ingressantes,51,14/03/2026,14/03/2026
+2026,Graduação EAD,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Ingressantes,51,14/03/2026,14/03/2026
+2026,Graduação EAD,Divisão de turmas,Solicitação para Divisão de Turmas,51,19/01/2026,23/01/2026
+2026,Graduação EAD,Divisão de turmas,Ajustes de divisão de turmas pela Secretaria Acadêmica,51,26/01/2026,30/01/2026
+2026,Graduação EAD,Divisão de turmas,Alimentação dos ambientes,51,02/02/2026,06/02/2026
+2026,Graduação EAD,Divisão de turmas,Ambientes prontos,51,09/02/2026,09/02/2026
+2026,Graduação EAD,Fechamento de Período e Rematrícula,Fechamento de Período e Rematrícula (módulo subsequente*),51,01/06/2026,05/06/2026
+2026,Graduação EAD,Fechamento de Período e Rematrícula,1º disparo de livros (módulo subsequente*),51,08/06/2026,08/06/2026
+2026,Graduação EAD,Fechamento de Período e Rematrícula,Ação Rematrícula** (Ajustes DP/ADAP),51,08/06/2026,12/06/2026
+2026,Graduação EAD,Fechamento de Período e Rematrícula,Liberação de base no Portal de Negociações (Cobrança),51,08/06/2026,08/06/2026
+2026,Graduação EAD,Fechamento de Período e Rematrícula,Ação Rematrícula** (Alunos sem matrícula e adimplentes),51,15/06/2026,19/06/2026
+2026,Graduação EAD,Lançamento de notas,Lançamento de notas - 1ª disciplina,51,27/04/2026,27/04/2026
+2026,Graduação EAD,Lançamento de notas,Lançamento de notas - SUB - 1ª Disciplina,51,25/05/2026,25/05/2026
+2026,Graduação EAD,Lançamento de notas,Lançamento de notas - 2ª disciplina,51,29/05/2026,29/05/2026
+2026,Graduação EAD,Lançamento de notas,Lançamento de notas - SUB - 2ª Disciplina,51,29/06/2026,29/06/2026
+2026,Graduação EAD,Outras rotinas,Processo de Evasão,51,06/07/2026,10/07/2026
+2026,Graduação EAD,Outros serviços atendidos pela Secretaria,Abertura de turmas (rotina da Secretaria),51,,
+2026,Graduação EAD,Outros serviços atendidos pela Secretaria,Solicitação de Alteração de matrizes,51,,
+2026,Graduação EAD,Período letivo,Período letivo,51,23/02/2026,02/05/2026
+2026,Graduação EAD,Rematrícula automática,Rematrícula automática do módulo,51,01/12/2025,23/03/2026
+2026,Graduação EAD,Rematrícula automática,Prazo para negociação (entrada no módulo com boleto D+2),51,16/03/2026,16/03/2026
+2026,Graduação EAD,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Mudança de Curso - Demais Cursos,51,15/10/2025,10/03/2026
+2026,Graduação EAD,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Reabertura de Matrícula - Inadimplentes,51,16/10/2025,18/03/2026
+2026,Graduação EAD,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Reabertura de Matrícula - Adimplentes,51,21/10/2025,23/03/2026
+2026,Graduação EAD,Serviços atendidos pelo CSC - Secretaria e Financeiro,Prazo para ajustes na secretaria - Reabertura,51,20/03/2026,27/03/2026
+2026,Graduação EAD,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Cancelamento de DP/ADAP,51,15/12/2025,30/03/2026
+2026,Graduação EAD,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Veteranos,52,20/02/2026,30/04/2026
+2026,Graduação EAD,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Candidatos Ingressantes,52,17/03/2026,13/05/2026
+2026,Graduação EAD,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Ingressantes,52,17/03/2026,13/05/2026
+2026,Graduação EAD,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Veteranos,52,02/05/2026,02/05/2026
+2026,Graduação EAD,Aproveitamento de Estudos,Prazo para ajustes na secretaria - Aproveitamento - Veteranos,52,05/05/2026,05/05/2026
+2026,Graduação EAD,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Candidatos Ingressantes,52,16/05/2026,16/05/2026
+2026,Graduação EAD,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Ingressantes,52,16/05/2026,16/05/2026
+2026,Graduação EAD,Divisão de turmas,Solicitação para Divisão de Turmas,52,30/03/2026,03/04/2026
+2026,Graduação EAD,Divisão de turmas,Ajustes de divisão de turmas pela Secretaria Acadêmica,52,06/04/2026,10/04/2026
+2026,Graduação EAD,Divisão de turmas,Alimentação dos ambientes,52,13/04/2026,17/04/2026
+2026,Graduação EAD,Divisão de turmas,Ambientes prontos,52,20/04/2026,20/04/2026
+2026,Graduação EAD,Fechamento de Período e Rematrícula,Fechamento de Período e Rematrícula (módulo subsequente*),52,17/08/2026,21/08/2026
+2026,Graduação EAD,Fechamento de Período e Rematrícula,1º disparo de livros (módulo subsequente*),52,24/08/2026,24/08/2026
+2026,Graduação EAD,Fechamento de Período e Rematrícula,Ação Rematrícula** (Ajustes DP/ADAP),52,24/08/2026,28/08/2026
+2026,Graduação EAD,Fechamento de Período e Rematrícula,Liberação de base no Portal de Negociações (Cobrança),52,24/08/2026,24/08/2026
+2026,Graduação EAD,Fechamento de Período e Rematrícula,Ação Rematrícula** (Alunos sem matrícula e adimplentes),52,30/08/2026,03/09/2026
+2026,Graduação EAD,Lançamento de notas,Lançamento de notas - 1ª disciplina,52,06/07/2026,06/07/2026
+2026,Graduação EAD,Lançamento de notas,Lançamento de notas - SUB - 1ª Disciplina,52,03/08/2026,03/08/2026
+2026,Graduação EAD,Lançamento de notas,Lançamento de notas - 2ª disciplina,52,14/08/2026,14/08/2026
+2026,Graduação EAD,Lançamento de notas,Lançamento de notas - SUB - 2ª Disciplina,52,14/09/2026,14/09/2026
+2026,Graduação EAD,Outras rotinas,Processo de Evasão,52,21/09/2026,25/09/2026
+2026,Graduação EAD,Outros serviços atendidos pela Secretaria,Solicitação de Alteração de matrizes,52,12/12/2025,12/12/2025
+2026,Graduação EAD,Outros serviços atendidos pela Secretaria,Abertura de turmas (rotina da Secretaria),52,05/01/2026,05/01/2026
+2026,Graduação EAD,Período letivo,Período letivo,52,04/05/2026,11/07/2026
+2026,Graduação EAD,Rematrícula automática,Rematrícula automática do módulo,52,24/03/2026,22/05/2026
+2026,Graduação EAD,Rematrícula automática,Prazo para negociação (entrada no módulo com boleto D+2),52,18/05/2026,18/05/2026
+2026,Graduação EAD,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Mudança de Curso - Demais Cursos,52,11/03/2026,19/05/2026
+2026,Graduação EAD,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Reabertura de Matrícula - Adimplentes,52,24/03/2026,18/05/2026
+2026,Graduação EAD,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Reabertura de Matrícula - Inadimplentes,52,18/03/2026,13/05/2026
+2026,Graduação EAD,Serviços atendidos pelo CSC - Secretaria e Financeiro,Prazo para ajustes na secretaria - Reabertura,52,22/05/2026,22/05/2026
+2026,Graduação EAD,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Cancelamento de DP/ADAP,52,06/04/2026,29/06/2026
+2026,Graduação EAD,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Veteranos,53,01/05/2026,16/07/2026
+2026,Graduação EAD,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Candidatos Ingressantes,53,19/05/2026,12/08/2026
+2026,Graduação EAD,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Ingressantes,53,19/05/2026,12/08/2026
+2026,Graduação EAD,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Veteranos,53,18/07/2026,18/07/2026
+2026,Graduação EAD,Aproveitamento de Estudos,Prazo para ajustes na secretaria - Aproveitamento - Veteranos,53,21/07/2026,21/07/2026
+2026,Graduação EAD,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Candidatos Ingressantes,53,15/08/2026,15/08/2026
+2026,Graduação EAD,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Ingressantes,53,15/08/2026,15/08/2026
+2026,Graduação EAD,Divisão de turmas,Solicitação para Divisão de Turmas,53,15/06/2026,19/06/2026
+2026,Graduação EAD,Divisão de turmas,Ajustes de divisão de turmas pela Secretaria Acadêmica,53,22/06/2026,26/06/2026
+2026,Graduação EAD,Divisão de turmas,Alimentação dos ambientes,53,29/06/2026,03/07/2026
+2026,Graduação EAD,Divisão de turmas,Ambientes prontos,53,06/07/2026,06/07/2026
+2026,Graduação EAD,Fechamento de Período e Rematrícula,Fechamento de Período e Rematrícula (módulo subsequente*),53,27/10/2026,02/11/2026
+2026,Graduação EAD,Fechamento de Período e Rematrícula,1º disparo de livros (módulo subsequente*),53,03/11/2026,03/11/2026
+2026,Graduação EAD,Fechamento de Período e Rematrícula,Ação Rematrícula** (Ajustes DP/ADAP),53,03/11/2026,10/11/2026
+2026,Graduação EAD,Fechamento de Período e Rematrícula,Liberação de base no Portal de Negociações (Cobrança),53,03/11/2026,03/11/2026
+2026,Graduação EAD,Fechamento de Período e Rematrícula,Ação Rematrícula** (Alunos sem matrícula e adimplentes),53,11/11/2026,17/11/2026
+2026,Graduação EAD,Lançamento de notas,Lançamento de notas - 1ª disciplina,53,21/09/2026,21/09/2026
+2026,Graduação EAD,Lançamento de notas,Lançamento de notas - SUB - 1ª Disciplina,53,19/10/2026,19/10/2026
+2026,Graduação EAD,Lançamento de notas,Lançamento de notas - 2ª disciplina,53,26/10/2026,26/10/2026
+2026,Graduação EAD,Lançamento de notas,Lançamento de notas - SUB - 2ª Disciplina,53,23/11/2026,23/11/2026
+2026,Graduação EAD,Outras rotinas,Processo de Evasão,53,14/12/2026,18/12/2026
+2026,Graduação EAD,Outros serviços atendidos pela Secretaria,Solicitação de Alteração de matrizes,53,23/04/2026,23/04/2026
+2026,Graduação EAD,Outros serviços atendidos pela Secretaria,Abertura de turmas (rotina da Secretaria),53,30/04/2026,30/04/2026
+2026,Graduação EAD,Período letivo,Período letivo,53,20/07/2026,26/09/2026
+2026,Graduação EAD,Rematrícula automática,Rematrícula automática do módulo,53,06/06/2026,21/08/2026
+2026,Graduação EAD,Rematrícula automática,Prazo para negociação (entrada no módulo com boleto D+2),53,17/08/2026,17/08/2026
+2026,Graduação EAD,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Reabertura de Matrícula - Adimplentes,53,19/05/2026,17/08/2026
+2026,Graduação EAD,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Mudança de Curso - Demais Cursos,53,20/05/2026,04/08/2026
+2026,Graduação EAD,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Reabertura de Matrícula - Inadimplentes,53,20/05/2026,12/08/2026
+2026,Graduação EAD,Serviços atendidos pelo CSC - Secretaria e Financeiro,Prazo para ajustes na secretaria - Reabertura,53,21/08/2026,21/08/2026
+2026,Graduação EAD,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Cancelamento de DP/ADAP,53,06/07/2026,28/09/2026
+2026,Graduação EAD,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Veteranos,54,17/07/2026,24/09/2026
+2026,Graduação EAD,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Candidatos Ingressantes,54,18/08/2026,14/10/2026
+2026,Graduação EAD,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Ingressantes,54,18/08/2026,14/10/2026
+2026,Graduação EAD,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Veteranos,54,26/09/2026,26/09/2026
+2026,Graduação EAD,Aproveitamento de Estudos,Prazo para ajustes na secretaria - Aproveitamento - Veteranos,54,29/09/2026,29/09/2026
+2026,Graduação EAD,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Candidatos Ingressantes,54,17/10/2026,17/10/2026
+2026,Graduação EAD,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Ingressantes,54,17/10/2026,17/10/2026
+2026,Graduação EAD,Divisão de turmas,Solicitação para Divisão de Turmas,54,24/08/2026,28/08/2026
+2026,Graduação EAD,Divisão de turmas,Ajustes de divisão de turmas pela Secretaria Acadêmica,54,31/08/2026,04/09/2026
+2026,Graduação EAD,Divisão de turmas,Alimentação dos ambientes,54,07/09/2026,11/09/2026
+2026,Graduação EAD,Divisão de turmas,Ambientes prontos,54,14/09/2026,14/09/2026
+2026,Graduação EAD,Fechamento de Período e Rematrícula,Fechamento de Período e Rematrícula (módulo subsequente*),54,04/01/2027,08/01/2027
+2026,Graduação EAD,Fechamento de Período e Rematrícula,1º disparo de livros (módulo subsequente*),54,11/01/2027,11/01/2027
+2026,Graduação EAD,Fechamento de Período e Rematrícula,Ação Rematrícula** (Ajustes DP/ADAP),54,11/01/2027,15/01/2027
+2026,Graduação EAD,Fechamento de Período e Rematrícula,Liberação de base no Portal de Negociações (Cobrança),54,11/01/2027,11/01/2027
+2026,Graduação EAD,Fechamento de Período e Rematrícula,Ação Rematrícula** (Alunos sem matrícula e adimplentes),54,18/01/2027,22/01/2027
+2026,Graduação EAD,Lançamento de notas,Lançamento de notas - 1ª disciplina,54,30/11/2026,30/11/2026
+2026,Graduação EAD,Lançamento de notas,Lançamento de notas - 2ª disciplina,54,22/12/2026,22/12/2026
+2026,Graduação EAD,Lançamento de notas,Lançamento de notas - SUB - 1ª Disciplina,54,22/12/2026,22/12/2026
+2026,Graduação EAD,Lançamento de notas,Lançamento de notas - SUB - 2ª Disciplina,54,08/02/2027,08/02/2027
+2026,Graduação EAD,Outras rotinas,Processo de Evasão,54,15/03/2027,19/03/2027
+2026,Graduação EAD,Outros serviços atendidos pela Secretaria,Solicitação de Alteração de matrizes,54,09/07/2026,09/07/2026
+2026,Graduação EAD,Outros serviços atendidos pela Secretaria,Abertura de turmas (rotina da Secretaria),54,16/07/2026,16/07/2026
+2026,Graduação EAD,Período letivo,Período letivo,54,28/09/2026,05/12/2026
+2026,Graduação EAD,Rematrícula automática,Rematrícula automática do módulo,54,22/08/2026,23/10/2026
+2026,Graduação EAD,Rematrícula automática,Prazo para negociação (entrada no módulo com boleto D+2),54,19/10/2026,19/10/2026
+2026,Graduação EAD,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Mudança de Curso - Demais Cursos,54,05/08/2026,13/10/2026
+2026,Graduação EAD,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Reabertura de Matrícula - Inadimplentes,54,05/08/2026,14/10/2026
+2026,Graduação EAD,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Reabertura de Matrícula - Adimplentes,54,18/08/2026,19/10/2026
+2026,Graduação EAD,Serviços atendidos pelo CSC - Secretaria e Financeiro,Prazo para ajustes na secretaria - Reabertura,54,23/10/2026,23/10/2026
+2026,Graduação EAD,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Cancelamento de DP/ADAP,54,05/10/2026,30/11/2026
+2026,Profissionalizantes,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Veteranos,71,20/09/2025,19/02/2026
+2026,Profissionalizantes,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Candidatos Ingressantes,71,21/10/2025,11/03/2026
+2026,Profissionalizantes,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Ingressantes,71,21/10/2025,11/03/2026
+2026,Profissionalizantes,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Veteranos,71,21/02/2026,21/02/2026
+2026,Profissionalizantes,Aproveitamento de Estudos,Prazo para ajustes na secretaria - Aproveitamento - Veteranos,71,24/02/2026,24/02/2026
+2026,Profissionalizantes,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Candidatos Ingressantes,71,14/03/2026,14/03/2026
+2026,Profissionalizantes,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Ingressantes,71,14/03/2026,14/03/2026
+2026,Profissionalizantes,Fechamento de Período e Rematrícula,Fechamento de Período e Rematrícula (módulo subsequente*),71,28/04/2026,03/05/2026
+2026,Profissionalizantes,Fechamento de Período e Rematrícula,Ação Rematrícula** (Ajustes DP/ADAP),71,04/05/2026,05/05/2026
+2026,Profissionalizantes,Fechamento de Período e Rematrícula,Liberação de base no Portal de Negociações (Cobrança),71,04/05/2026,04/05/2026
+2026,Profissionalizantes,Fechamento de Período e Rematrícula,Ação Rematrícula** (Alunos sem matrícula e adimplentes),71,06/05/2026,07/05/2026
+2026,Profissionalizantes,Lançamento de notas,Lançamento de notas,71,27/04/2026,27/04/2026
+2026,Profissionalizantes,Outras rotinas,Processo de Evasão,71,06/07/2026,10/07/2026
+2026,Profissionalizantes,Outros serviços atendidos pela Secretaria,Abertura de turmas (rotina da Secretaria),71,,
+2026,Profissionalizantes,Outros serviços atendidos pela Secretaria,Solicitação de Alteração de matrizes,71,,
+2026,Profissionalizantes,Período letivo,Período letivo,71,23/02/2026,25/04/2026
+2026,Profissionalizantes,Rematrícula automática,Rematrícula automática do módulo,71,01/02/2026,23/03/2026
+2026,Profissionalizantes,Rematrícula automática,Prazo para negociação (entrada no módulo com boleto D+2),71,16/03/2026,16/03/2026
+2026,Graduação EAD,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Mudança de Curso - Engenharias,51,26/09/2025,19/02/2026
+2026,Graduação EAD,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Mudança de Curso - Engenharias,52,20/02/2026,30/04/2026
+2026,Graduação EAD,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Mudança de Curso - Engenharias,53,01/05/2026,16/07/2026
+2026,Graduação EAD,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Mudança de Curso - Engenharias,54,17/07/2026,24/09/2026
+2026,Profissionalizantes,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Mudança de Curso,71,15/10/2025,10/03/2026
+2026,Profissionalizantes,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Reabertura de Matrícula - Inadimplentes,71,16/10/2025,18/03/2026
+2026,Profissionalizantes,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Reabertura de Matrícula - Adimplentes,71,21/10/2025,23/03/2026
+2026,Profissionalizantes,Serviços atendidos pelo CSC - Secretaria e Financeiro,Prazo para ajustes na secretaria - Reabertura,71,20/03/2026,27/03/2026
+2026,Profissionalizantes,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Veteranos,72,20/02/2026,30/04/2026
+2026,Profissionalizantes,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Candidatos Ingressantes,72,17/03/2026,13/05/2026
+2026,Profissionalizantes,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Ingressantes,72,17/03/2026,13/05/2026
+2026,Profissionalizantes,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Veteranos,72,02/05/2026,02/05/2026
+2026,Profissionalizantes,Aproveitamento de Estudos,Prazo para ajustes na secretaria - Aproveitamento - Veteranos,72,05/05/2026,05/05/2026
+2026,Profissionalizantes,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Candidatos Ingressantes,72,16/05/2026,16/05/2026
+2026,Profissionalizantes,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Ingressantes,72,16/05/2026,16/05/2026
+2026,Profissionalizantes,Fechamento de Período e Rematrícula,Fechamento de Período e Rematrícula (módulo subsequente*),72,05/07/2026,19/07/2026
+2026,Profissionalizantes,Fechamento de Período e Rematrícula,Ação Rematrícula** (Ajustes DP/ADAP),72,20/07/2026,21/07/2026
+2026,Profissionalizantes,Fechamento de Período e Rematrícula,Liberação de base no Portal de Negociações (Cobrança),72,20/07/2026,20/07/2026
+2026,Profissionalizantes,Fechamento de Período e Rematrícula,Ação Rematrícula** (Alunos sem matrícula e adimplentes),72,22/07/2026,23/07/2026
+2026,Profissionalizantes,Lançamento de notas,Lançamento de notas,72,06/07/2026,06/07/2026
+2026,Profissionalizantes,Outras rotinas,Processo de Evasão,72,21/09/2026,25/09/2026
+2026,Profissionalizantes,Outros serviços atendidos pela Secretaria,Abertura de turmas (rotina da Secretaria),72,05/01/2026,05/01/2026
+2026,Profissionalizantes,Outros serviços atendidos pela Secretaria,Solicitação de Alteração de matrizes,72,12/12/2025,12/12/2025
+2026,Profissionalizantes,Período letivo,Período letivo,72,04/05/2026,04/07/2026
+2026,Profissionalizantes,Rematrícula automática,Rematrícula automática do módulo,72,04/05/2026,22/05/2026
+2026,Profissionalizantes,Rematrícula automática,Prazo para negociação (entrada no módulo com boleto D+2),72,16/03/2026,16/03/2026
+2026,Profissionalizantes,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Mudança de Curso,72,11/03/2026,19/05/2026
+2026,Profissionalizantes,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Reabertura de Matrícula - Adimplentes,72,24/03/2026,18/05/2026
+2026,Profissionalizantes,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Reabertura de Matrícula - Inadimplentes,72,18/03/2026,13/05/2026
+2026,Profissionalizantes,Serviços atendidos pelo CSC - Secretaria e Financeiro,Prazo para ajustes na secretaria - Reabertura,72,22/05/2026,22/05/2026
+2026,Profissionalizantes,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Veteranos,73,01/05/2026,16/07/2026
+2026,Profissionalizantes,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Candidatos Ingressantes,73,19/05/2026,12/08/2026
+2026,Profissionalizantes,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Ingressantes,73,19/05/2026,12/08/2026
+2026,Profissionalizantes,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Veteranos,73,18/07/2026,18/07/2026
+2026,Profissionalizantes,Aproveitamento de Estudos,Prazo para ajustes na secretaria - Aproveitamento - Veteranos,73,21/07/2026,21/07/2026
+2026,Profissionalizantes,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Candidatos Ingressantes,73,15/08/2026,15/08/2026
+2026,Profissionalizantes,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Ingressantes,73,15/08/2026,15/08/2026
+2026,Profissionalizantes,Fechamento de Período e Rematrícula,Fechamento de Período e Rematrícula (módulo subsequente*),73,22/09/2026,27/09/2026
+2026,Profissionalizantes,Fechamento de Período e Rematrícula,Ação Rematrícula** (Ajustes DP/ADAP),73,28/09/2026,29/09/2026
+2026,Profissionalizantes,Fechamento de Período e Rematrícula,Liberação de base no Portal de Negociações (Cobrança),73,28/09/2026,28/09/2026
+2026,Profissionalizantes,Fechamento de Período e Rematrícula,Ação Rematrícula** (Alunos sem matrícula e adimplentes),73,30/09/2026,01/10/2026
+2026,Profissionalizantes,Lançamento de notas,Lançamento de notas,73,21/09/2026,21/09/2026
+2026,Profissionalizantes,Outras rotinas,Processo de Evasão,73,14/12/2026,18/12/2026
+2026,Profissionalizantes,Outros serviços atendidos pela Secretaria,Abertura de turmas (rotina da Secretaria),73,30/04/2026,30/04/2026
+2026,Profissionalizantes,Outros serviços atendidos pela Secretaria,Solicitação de Alteração de matrizes,73,23/04/2026,23/04/2026
+2026,Profissionalizantes,Período letivo,Período letivo,73,20/07/2026,19/09/2026
+2026,Profissionalizantes,Rematrícula automática,Rematrícula automática do módulo,73,20/07/2026,21/08/2026
+2026,Profissionalizantes,Rematrícula automática,Prazo para negociação (entrada no módulo com boleto D+2),73,16/03/2026,16/03/2026
+2026,Profissionalizantes,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Reabertura de Matrícula - Adimplentes,73,19/05/2026,17/08/2026
+2026,Profissionalizantes,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Mudança de Curso,73,20/05/2026,04/08/2026
+2026,Profissionalizantes,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Reabertura de Matrícula - Inadimplentes,73,20/05/2026,12/08/2026
+2026,Profissionalizantes,Serviços atendidos pelo CSC - Secretaria e Financeiro,Prazo para ajustes na secretaria - Reabertura,73,21/08/2026,21/08/2026
+2026,Profissionalizantes,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Veteranos,74,17/07/2026,24/09/2026
+2026,Profissionalizantes,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Candidatos Ingressantes,74,18/08/2026,14/10/2026
+2026,Profissionalizantes,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Ingressantes,74,18/08/2026,14/10/2026
+2026,Profissionalizantes,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Veteranos,74,26/09/2026,26/09/2026
+2026,Profissionalizantes,Aproveitamento de Estudos,Prazo para ajustes na secretaria - Aproveitamento - Veteranos,74,29/09/2026,29/09/2026
+2026,Profissionalizantes,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Candidatos Ingressantes,74,17/10/2026,17/10/2026
+2026,Profissionalizantes,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Ingressantes,74,17/10/2026,17/10/2026
+2026,Profissionalizantes,Fechamento de Período e Rematrícula,Fechamento de Período e Rematrícula (módulo subsequente*),74,01/12/2026,10/12/2026
+2026,Profissionalizantes,Fechamento de Período e Rematrícula,Ação Rematrícula** (Ajustes DP/ADAP),74,11/12/2026,12/12/2026
+2026,Profissionalizantes,Fechamento de Período e Rematrícula,Liberação de base no Portal de Negociações (Cobrança),74,11/12/2026,11/12/2026
+2026,Profissionalizantes,Fechamento de Período e Rematrícula,Ação Rematrícula** (Alunos sem matrícula e adimplentes),74,13/12/2026,14/12/2026
+2026,Profissionalizantes,Lançamento de notas,Lançamento de notas,74,30/11/2026,30/11/2026
+2026,Profissionalizantes,Outras rotinas,Processo de Evasão,74,16/03/2027,20/03/2027
+2026,Profissionalizantes,Outros serviços atendidos pela Secretaria,Abertura de turmas (rotina da Secretaria),74,16/07/2026,16/07/2026
+2026,Profissionalizantes,Outros serviços atendidos pela Secretaria,Solicitação de Alteração de matrizes,74,09/07/2026,09/07/2026
+2026,Profissionalizantes,Período letivo,Período letivo,74,28/09/2026,28/11/2026
+2026,Profissionalizantes,Rematrícula automática,Rematrícula automática do módulo,74,28/09/2026,23/10/2026
+2026,Profissionalizantes,Rematrícula automática,Prazo para negociação (entrada no módulo com boleto D+2),74,16/03/2026,16/03/2026
+2026,Profissionalizantes,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Mudança de Curso,74,05/08/2026,13/10/2026
+2026,Profissionalizantes,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Reabertura de Matrícula - Inadimplentes,74,05/08/2026,14/10/2026
+2026,Profissionalizantes,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Reabertura de Matrícula - Adimplentes,74,18/08/2026,19/10/2026
+2026,Profissionalizantes,Serviços atendidos pelo CSC - Secretaria e Financeiro,Prazo para ajustes na secretaria - Reabertura,74,23/10/2026,23/10/2026
+2026,Técnico,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Veteranos,91,20/09/2025,19/02/2026
+2026,Técnico,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Candidatos Ingressantes,91,21/10/2025,11/03/2026
+2026,Técnico,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Ingressantes,91,21/10/2025,11/03/2026
+2026,Técnico,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Veteranos,91,21/02/2026,21/02/2026
+2026,Técnico,Aproveitamento de Estudos,Prazo para ajustes na secretaria - Aproveitamento - Veteranos,91,24/02/2026,24/02/2026
+2026,Técnico,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Candidatos Ingressantes,91,14/03/2026,14/03/2026
+2026,Técnico,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Ingressantes,91,14/03/2026,14/03/2026
+2026,Técnico,Fechamento de Período e Rematrícula,Fechamento de Período e Rematrícula (módulo subsequente*),91,01/06/2026,05/06/2026
+2026,Técnico,Fechamento de Período e Rematrícula,Ação Rematrícula** (Ajustes DP/ADAP),91,08/06/2026,12/06/2026
+2026,Técnico,Fechamento de Período e Rematrícula,Liberação de base no Portal de Negociações (Cobrança),91,08/06/2026,08/06/2026
+2026,Técnico,Fechamento de Período e Rematrícula,Ação Rematrícula** (Alunos sem matrícula e adimplentes),91,15/06/2026,19/06/2026
+2026,Técnico,Lançamento de notas,Lançamento de notas,91,29/05/2026,29/05/2026
+2026,Técnico,Lançamento de notas,Lançamento de notas - SUB,91,29/06/2026,29/06/2026
+2026,Técnico,Outras rotinas,Processo de Evasão,91,06/07/2026,10/07/2026
+2026,Técnico,Outros serviços atendidos pela Secretaria,Abertura de turmas (rotina da Secretaria),91,,
+2026,Técnico,Outros serviços atendidos pela Secretaria,Solicitação de Alteração de matrizes,91,,
+2026,Técnico,Período letivo,Período letivo,91,23/02/2026,02/05/2026
+2026,Técnico,Rematrícula automática,Rematrícula automática do módulo,91,01/12/2025,23/03/2026
+2026,Técnico,Rematrícula automática,Prazo para negociação (entrada no módulo com boleto D+2),91,16/03/2026,16/03/2026
+2026,Técnico,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Mudança de Curso,91,15/10/2025,10/03/2026
+2026,Técnico,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Reabertura de Matrícula - Inadimplentes,91,16/10/2025,18/03/2026
+2026,Técnico,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Reabertura de Matrícula - Adimplentes,91,21/10/2025,23/03/2026
+2026,Técnico,Serviços atendidos pelo CSC - Secretaria e Financeiro,Prazo para ajustes na secretaria - Reabertura,91,20/03/2026,27/03/2026
+2026,Técnico,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Veteranos,92,20/02/2026,30/04/2026
+2026,Técnico,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Candidatos Ingressantes,92,17/03/2026,13/05/2026
+2026,Técnico,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Ingressantes,92,17/03/2026,13/05/2026
+2026,Técnico,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Veteranos,92,02/05/2026,02/05/2026
+2026,Técnico,Aproveitamento de Estudos,Prazo para ajustes na secretaria - Aproveitamento - Veteranos,92,05/05/2026,05/05/2026
+2026,Técnico,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Candidatos Ingressantes,92,16/05/2026,16/05/2026
+2026,Técnico,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Ingressantes,92,16/05/2026,16/05/2026
+2026,Técnico,Fechamento de Período e Rematrícula,Fechamento de Período e Rematrícula (módulo subsequente*),92,17/08/2026,21/08/2026
+2026,Técnico,Fechamento de Período e Rematrícula,Ação Rematrícula** (Ajustes DP/ADAP),92,24/08/2026,28/08/2026
+2026,Técnico,Fechamento de Período e Rematrícula,Liberação de base no Portal de Negociações (Cobrança),92,24/08/2026,24/08/2026
+2026,Técnico,Fechamento de Período e Rematrícula,Ação Rematrícula** (Alunos sem matrícula e adimplentes),92,30/08/2026,03/09/2026
+2026,Técnico,Lançamento de notas,Lançamento de notas,92,14/08/2026,14/08/2026
+2026,Técnico,Lançamento de notas,Lançamento de notas - SUB,92,14/09/2026,14/09/2026
+2026,Técnico,Outras rotinas,Processo de Evasão,92,21/09/2026,25/09/2026
+2026,Técnico,Outros serviços atendidos pela Secretaria,Solicitação de Alteração de matrizes,92,12/12/2025,12/12/2025
+2026,Técnico,Outros serviços atendidos pela Secretaria,Abertura de turmas (rotina da Secretaria),92,05/01/2026,05/01/2026
+2026,Técnico,Período letivo,Período letivo,92,04/05/2026,11/07/2026
+2026,Técnico,Rematrícula automática,Rematrícula automática do módulo,92,24/03/2026,22/05/2026
+2026,Técnico,Rematrícula automática,Prazo para negociação (entrada no módulo com boleto D+2),92,18/05/2026,18/05/2026
+2026,Técnico,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Mudança de Curso,92,11/03/2026,19/05/2026
+2026,Técnico,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Reabertura de Matrícula - Adimplentes,92,24/03/2026,18/05/2026
+2026,Técnico,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Reabertura de Matrícula - Inadimplentes,92,18/03/2026,13/05/2026
+2026,Técnico,Serviços atendidos pelo CSC - Secretaria e Financeiro,Prazo para ajustes na secretaria - Reabertura,92,22/05/2026,22/05/2026
+2026,Técnico,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Veteranos,93,01/05/2026,16/07/2026
+2026,Técnico,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Candidatos Ingressantes,93,19/05/2026,12/08/2026
+2026,Técnico,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Ingressantes,93,19/05/2026,12/08/2026
+2026,Técnico,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Veteranos,93,18/07/2026,18/07/2026
+2026,Técnico,Aproveitamento de Estudos,Prazo para ajustes na secretaria - Aproveitamento - Veteranos,93,21/07/2026,21/07/2026
+2026,Técnico,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Candidatos Ingressantes,93,15/08/2026,15/08/2026
+2026,Técnico,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Ingressantes,93,15/08/2026,15/08/2026
+2026,Técnico,Fechamento de Período e Rematrícula,Fechamento de Período e Rematrícula (módulo subsequente*),93,27/10/2026,02/11/2026
+2026,Técnico,Fechamento de Período e Rematrícula,Ação Rematrícula** (Ajustes DP/ADAP),93,03/11/2026,10/11/2026
+2026,Técnico,Fechamento de Período e Rematrícula,Liberação de base no Portal de Negociações (Cobrança),93,03/11/2026,03/11/2026
+2026,Técnico,Fechamento de Período e Rematrícula,Ação Rematrícula** (Alunos sem matrícula e adimplentes),93,11/11/2026,17/11/2026
+2026,Técnico,Lançamento de notas,Lançamento de notas,93,26/10/2026,26/10/2026
+2026,Técnico,Lançamento de notas,Lançamento de notas - SUB,93,23/11/2026,23/11/2026
+2026,Técnico,Outras rotinas,Processo de Evasão,93,14/12/2026,18/12/2026
+2026,Técnico,Outros serviços atendidos pela Secretaria,Solicitação de Alteração de matrizes,93,23/04/2026,23/04/2026
+2026,Técnico,Outros serviços atendidos pela Secretaria,Abertura de turmas (rotina da Secretaria),93,30/04/2026,30/04/2026
+2026,Técnico,Período letivo,Período letivo,93,20/07/2026,26/09/2026
+2026,Técnico,Rematrícula automática,Rematrícula automática do módulo,93,06/06/2026,21/08/2026
+2026,Técnico,Rematrícula automática,Prazo para negociação (entrada no módulo com boleto D+2),93,17/08/2026,17/08/2026
+2026,Técnico,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Reabertura de Matrícula - Adimplentes,93,19/05/2026,17/08/2026
+2026,Técnico,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Mudança de Curso,93,20/05/2026,04/08/2026
+2026,Técnico,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Reabertura de Matrícula - Inadimplentes,93,20/05/2026,12/08/2026
+2026,Técnico,Serviços atendidos pelo CSC - Secretaria e Financeiro,Prazo para ajustes na secretaria - Reabertura,93,21/08/2026,21/08/2026
+2026,Técnico,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Veteranos,94,17/07/2026,24/09/2026
+2026,Técnico,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Candidatos Ingressantes,94,18/08/2026,14/10/2026
+2026,Técnico,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Ingressantes,94,18/08/2026,14/10/2026
+2026,Técnico,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Veteranos,94,26/09/2026,26/09/2026
+2026,Técnico,Aproveitamento de Estudos,Prazo para ajustes na secretaria - Aproveitamento - Veteranos,94,29/09/2026,29/09/2026
+2026,Técnico,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Candidatos Ingressantes,94,17/10/2026,17/10/2026
+2026,Técnico,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Ingressantes,94,17/10/2026,17/10/2026
+2026,Técnico,Fechamento de Período e Rematrícula,Fechamento de Período e Rematrícula (módulo subsequente*),94,04/01/2027,08/01/2027
+2026,Técnico,Fechamento de Período e Rematrícula,Ação Rematrícula** (Ajustes DP/ADAP),94,11/01/2027,15/01/2027
+2026,Técnico,Fechamento de Período e Rematrícula,Liberação de base no Portal de Negociações (Cobrança),94,11/01/2027,11/01/2027
+2026,Técnico,Fechamento de Período e Rematrícula,Ação Rematrícula** (Alunos sem matrícula e adimplentes),94,18/01/2027,22/01/2027
+2026,Técnico,Lançamento de notas,Lançamento de notas,94,22/12/2026,22/12/2026
+2026,Técnico,Lançamento de notas,Lançamento de notas - SUB,94,08/02/2027,08/02/2027
+2026,Técnico,Outras rotinas,Processo de Evasão,94,16/03/2027,20/03/2027
+2026,Técnico,Outros serviços atendidos pela Secretaria,Solicitação de Alteração de matrizes,94,09/07/2026,09/07/2026
+2026,Técnico,Outros serviços atendidos pela Secretaria,Abertura de turmas (rotina da Secretaria),94,16/07/2026,16/07/2026
+2026,Técnico,Período letivo,Período letivo,94,28/09/2026,05/12/2026
+2026,Técnico,Rematrícula automática,Rematrícula automática do módulo,94,22/08/2026,23/10/2026
+2026,Técnico,Rematrícula automática,Prazo para negociação (entrada no módulo com boleto D+2),94,19/10/2026,19/10/2026
+2026,Técnico,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Mudança de Curso,94,05/08/2026,13/10/2026
+2026,Técnico,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Reabertura de Matrícula - Inadimplentes,94,05/08/2026,14/10/2026
+2026,Técnico,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Reabertura de Matrícula - Adimplentes,94,18/08/2026,19/10/2026
+2026,Técnico,Serviços atendidos pelo CSC - Secretaria e Financeiro,Prazo para ajustes na secretaria - Reabertura,94,23/10/2026,23/10/2026
+2026,Pós-graduação Híbrida,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Veteranos,81,20/09/2025,19/02/2026
+2026,Pós-graduação Híbrida,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Candidatos Ingressantes,81,21/10/2025,11/03/2026
+2026,Pós-graduação Híbrida,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Ingressantes,81,21/10/2025,11/03/2026
+2026,Pós-graduação Híbrida,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Veteranos,81,21/02/2026,21/02/2026
+2026,Pós-graduação Híbrida,Aproveitamento de Estudos,Prazo para ajustes na secretaria - Aproveitamento - Veteranos,81,24/02/2026,24/02/2026
+2026,Pós-graduação Híbrida,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Candidatos Ingressantes,81,14/03/2026,14/03/2026
+2026,Pós-graduação Híbrida,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Ingressantes,81,14/03/2026,14/03/2026
+2026,Pós-graduação Híbrida,Fechamento de Período e Rematrícula,Fechamento de Período e Rematrícula (módulo subsequente*),81,01/06/2026,05/06/2026
+2026,Pós-graduação Híbrida,Fechamento de Período e Rematrícula,1º disparo de livros (módulo subsequente*),81,08/06/2026,08/06/2026
+2026,Pós-graduação Híbrida,Fechamento de Período e Rematrícula,Ação Rematrícula** (Ajustes DP/ADAP),81,08/06/2026,12/06/2026
+2026,Pós-graduação Híbrida,Fechamento de Período e Rematrícula,Liberação de base no Portal de Negociações (Cobrança),81,08/06/2026,08/06/2026
+2026,Pós-graduação Híbrida,Fechamento de Período e Rematrícula,Ação Rematrícula** (Alunos sem matrícula e adimplentes),81,15/06/2026,19/06/2026
+2026,Pós-graduação Híbrida,Lançamento de notas,Lançamento de notas,81,27/05/2026,27/05/2026
+2026,Pós-graduação Híbrida,Outros serviços atendidos pela Secretaria,Abertura de turmas (rotina da Secretaria),81,,
+2026,Pós-graduação Híbrida,Outros serviços atendidos pela Secretaria,Solicitação de Alteração de matrizes,81,,
+2026,Pós-graduação Híbrida,Período letivo,Período letivo,81,23/02/2026,03/05/2026
+2026,Pós-graduação Híbrida,Rematrícula automática,Rematrícula automática do módulo,81,01/12/2025,20/03/2026
+2026,Pós-graduação Híbrida,Rematrícula automática,Prazo para negociação (entrada no módulo com boleto D+2),81,16/03/2026,16/03/2026
+2026,Pós-graduação Híbrida,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Mudança de Curso,81,15/10/2025,10/03/2026
+2026,Pós-graduação Híbrida,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Reabertura de Matrícula - Inadimplentes,81,16/10/2025,11/03/2026
+2026,Pós-graduação Híbrida,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Reabertura de Matrícula - Adimplentes,81,21/10/2025,16/03/2026
+2026,Pós-graduação Híbrida,Serviços atendidos pelo CSC - Secretaria e Financeiro,Prazo para ajustes na secretaria - Reabertura,81,20/03/2026,20/03/2026
+2026,Pós-graduação Híbrida,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Veteranos,82,20/02/2026,30/04/2026
+2026,Pós-graduação Híbrida,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Candidatos Ingressantes,82,17/03/2026,13/05/2026
+2026,Pós-graduação Híbrida,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Ingressantes,82,17/03/2026,13/05/2026
+2026,Pós-graduação Híbrida,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Veteranos,82,02/05/2026,02/05/2026
+2026,Pós-graduação Híbrida,Aproveitamento de Estudos,Prazo para ajustes na secretaria - Aproveitamento - Veteranos,82,05/05/2026,05/05/2026
+2026,Pós-graduação Híbrida,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Candidatos Ingressantes,82,16/05/2026,16/05/2026
+2026,Pós-graduação Híbrida,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Ingressantes,82,16/05/2026,16/05/2026
+2026,Pós-graduação Híbrida,Fechamento de Período e Rematrícula,Fechamento de Período e Rematrícula (módulo subsequente*),82,17/08/2026,21/08/2026
+2026,Pós-graduação Híbrida,Fechamento de Período e Rematrícula,1º disparo de livros (módulo subsequente*),82,24/08/2026,24/08/2026
+2026,Pós-graduação Híbrida,Fechamento de Período e Rematrícula,Ação Rematrícula** (Ajustes DP/ADAP),82,24/08/2026,28/08/2026
+2026,Pós-graduação Híbrida,Fechamento de Período e Rematrícula,Liberação de base no Portal de Negociações (Cobrança),82,24/08/2026,24/08/2026
+2026,Pós-graduação Híbrida,Fechamento de Período e Rematrícula,Ação Rematrícula** (Alunos sem matrícula e adimplentes),82,30/08/2026,03/09/2026
+2026,Pós-graduação Híbrida,Lançamento de notas,Lançamento de notas,82,12/08/2026,12/08/2026
+2026,Pós-graduação Híbrida,Outros serviços atendidos pela Secretaria,Solicitação de Alteração de matrizes,82,12/12/2025,12/12/2025
+2026,Pós-graduação Híbrida,Outros serviços atendidos pela Secretaria,Abertura de turmas (rotina da Secretaria),82,05/01/2026,05/01/2026
+2026,Pós-graduação Híbrida,Período letivo,Período letivo,82,04/05/2026,12/07/2026
+2026,Pós-graduação Híbrida,Rematrícula automática,Rematrícula automática do módulo,82,01/02/2026,22/05/2026
+2026,Pós-graduação Híbrida,Rematrícula automática,Prazo para negociação (entrada no módulo com boleto D+2),82,18/05/2026,18/05/2026
+2026,Pós-graduação Híbrida,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Mudança de Curso,82,11/03/2026,19/05/2026
+2026,Pós-graduação Híbrida,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Reabertura de Matrícula - Adimplentes,82,17/03/2026,18/05/2026
+2026,Pós-graduação Híbrida,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Reabertura de Matrícula - Inadimplentes,82,18/03/2026,13/05/2026
+2026,Pós-graduação Híbrida,Serviços atendidos pelo CSC - Secretaria e Financeiro,Prazo para ajustes na secretaria - Reabertura,82,22/05/2026,22/05/2026
+2026,Pós-graduação Híbrida,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Veteranos,83,01/05/2026,16/07/2026
+2026,Pós-graduação Híbrida,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Candidatos Ingressantes,83,19/05/2026,12/08/2026
+2026,Pós-graduação Híbrida,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Ingressantes,83,19/05/2026,12/08/2026
+2026,Pós-graduação Híbrida,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Veteranos,83,18/07/2026,18/07/2026
+2026,Pós-graduação Híbrida,Aproveitamento de Estudos,Prazo para ajustes na secretaria - Aproveitamento - Veteranos,83,21/07/2026,21/07/2026
+2026,Pós-graduação Híbrida,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Candidatos Ingressantes,83,15/08/2026,15/08/2026
+2026,Pós-graduação Híbrida,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Ingressantes,83,15/08/2026,15/08/2026
+2026,Pós-graduação Híbrida,Fechamento de Período e Rematrícula,Fechamento de Período e Rematrícula (módulo subsequente*),83,27/10/2026,02/11/2026
+2026,Pós-graduação Híbrida,Fechamento de Período e Rematrícula,1º disparo de livros (módulo subsequente*),83,03/11/2026,03/11/2026
+2026,Pós-graduação Híbrida,Fechamento de Período e Rematrícula,Ação Rematrícula** (Ajustes DP/ADAP),83,03/11/2026,10/11/2026
+2026,Pós-graduação Híbrida,Fechamento de Período e Rematrícula,Liberação de base no Portal de Negociações (Cobrança),83,03/11/2026,03/11/2026
+2026,Pós-graduação Híbrida,Fechamento de Período e Rematrícula,Ação Rematrícula** (Alunos sem matrícula e adimplentes),83,11/11/2026,17/11/2026
+2026,Pós-graduação Híbrida,Lançamento de notas,Lançamento de notas,83,24/10/2026,24/10/2026
+2026,Pós-graduação Híbrida,Outros serviços atendidos pela Secretaria,Solicitação de Alteração de matrizes,83,23/04/2026,23/04/2026
+2026,Pós-graduação Híbrida,Outros serviços atendidos pela Secretaria,Abertura de turmas (rotina da Secretaria),83,30/04/2026,30/04/2026
+2026,Pós-graduação Híbrida,Período letivo,Período letivo,83,20/07/2026,20/09/2026
+2026,Pós-graduação Híbrida,Rematrícula automática,Rematrícula automática do módulo,83,06/06/2026,21/08/2026
+2026,Pós-graduação Híbrida,Rematrícula automática,Prazo para negociação (entrada no módulo com boleto D+2),83,17/08/2026,17/08/2026
+2026,Pós-graduação Híbrida,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Reabertura de Matrícula - Adimplentes,83,19/05/2026,17/08/2026
+2026,Pós-graduação Híbrida,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Mudança de Curso,83,20/05/2026,04/08/2026
+2026,Pós-graduação Híbrida,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Reabertura de Matrícula - Inadimplentes,83,20/05/2026,12/08/2026
+2026,Pós-graduação Híbrida,Serviços atendidos pelo CSC - Secretaria e Financeiro,Prazo para ajustes na secretaria - Reabertura,83,21/08/2026,21/08/2026
+2026,Pós-graduação Híbrida,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Veteranos,84,17/07/2026,24/09/2026
+2026,Pós-graduação Híbrida,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Candidatos Ingressantes,84,18/08/2026,14/10/2026
+2026,Pós-graduação Híbrida,Aproveitamento de Estudos,Solicitação de Aproveitamento de Estudos - Ingressantes,84,18/08/2026,14/10/2026
+2026,Pós-graduação Híbrida,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Veteranos,84,26/09/2026,26/09/2026
+2026,Pós-graduação Híbrida,Aproveitamento de Estudos,Prazo para ajustes na secretaria - Aproveitamento - Veteranos,84,29/09/2026,29/09/2026
+2026,Pós-graduação Híbrida,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Candidatos Ingressantes,84,17/10/2026,17/10/2026
+2026,Pós-graduação Híbrida,Aproveitamento de Estudos,Prazo para análise de aproveitamento - Ingressantes,84,17/10/2026,17/10/2026
+2026,Pós-graduação Híbrida,Fechamento de Período e Rematrícula,Fechamento de Período e Rematrícula (módulo subsequente*),84,04/01/2027,08/01/2027
+2026,Pós-graduação Híbrida,Fechamento de Período e Rematrícula,1º disparo de livros (módulo subsequente*),84,11/01/2027,11/01/2027
+2026,Pós-graduação Híbrida,Fechamento de Período e Rematrícula,Ação Rematrícula** (Ajustes DP/ADAP),84,11/01/2027,15/01/2027
+2026,Pós-graduação Híbrida,Fechamento de Período e Rematrícula,Liberação de base no Portal de Negociações (Cobrança),84,11/01/2027,11/01/2027
+2026,Pós-graduação Híbrida,Fechamento de Período e Rematrícula,Ação Rematrícula** (Alunos sem matrícula e adimplentes),84,18/01/2027,22/01/2027
+2026,Pós-graduação Híbrida,Lançamento de notas,Lançamento de notas,84,20/12/2026,20/12/2026
+2026,Pós-graduação Híbrida,Outros serviços atendidos pela Secretaria,Solicitação de Alteração de matrizes,84,09/07/2026,09/07/2026
+2026,Pós-graduação Híbrida,Outros serviços atendidos pela Secretaria,Abertura de turmas (rotina da Secretaria),84,16/07/2026,16/07/2026
+2026,Pós-graduação Híbrida,Período letivo,Período letivo,84,28/09/2026,06/12/2026
+2026,Pós-graduação Híbrida,Rematrícula automática,Rematrícula automática do módulo,84,22/08/2026,23/10/2026
+2026,Pós-graduação Híbrida,Rematrícula automática,Prazo para negociação (entrada no módulo com boleto D+2),84,19/10/2026,19/10/2026
+2026,Pós-graduação Híbrida,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Mudança de Curso,84,05/08/2026,13/10/2026
+2026,Pós-graduação Híbrida,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Reabertura de Matrícula - Inadimplentes,84,05/08/2026,14/10/2026
+2026,Pós-graduação Híbrida,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de Reabertura de Matrícula - Adimplentes,84,18/08/2026,19/10/2026
+2026,Pós-graduação Híbrida,Serviços atendidos pelo CSC - Secretaria e Financeiro,Prazo para ajustes na secretaria - Reabertura,84,23/10/2026,23/10/2026
+2026,Presencial,Período letivo,Período letivo,1,09/02/2026,11/07/2026
+2026,Presencial,Provas,Semana de provas - 1º bimestre,1,13/04/2026,17/04/2026
+2026,Presencial,Provas,Semana de provas - 2º bimestre,1,22/06/2026,26/06/2026
+2026,Presencial,Serviços atendidos pelo CSC - Secretaria e Financeiro,"Solicitação de troca de curso, turno e turma",1,05/01/2026,31/03/2026
+2026,Presencial,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de aproveitamento de estudos,1,05/01/2026,31/03/2026
+2026,Presencial,Provas,Provas substitutivas,1,01/07/2026,07/07/2026
+2026,Presencial,Lançamento de notas,Lançamento de notas - 1º bimestre,1,08/05/2026,08/05/2026
+2026,Presencial,Lançamento de notas,Lançamento de notas - 2º bimestre,1,30/06/2026,30/06/2026
+2026,Presencial,Período letivo,Período letivo,2,27/07/2026,18/12/2026
+2026,Presencial,Provas,Semana de provas - 1º bimestre,2,21/09/2026,25/09/2026
+2026,Presencial,Provas,Semana de provas - 2º bimestre,2,23/11/2026,27/11/2026
+2026,Presencial,Serviços atendidos pelo CSC - Secretaria e Financeiro,"Solicitação de troca de curso, turno e turma",2,01/04/2026,31/08/2026
+2026,Presencial,Serviços atendidos pelo CSC - Secretaria e Financeiro,Solicitação de aproveitamento de estudos,2,01/04/2026,31/08/2026
+2026,Presencial,Provas,Provas substitutivas,2,07/12/2026,11/12/2026
+2026,Presencial,Lançamento de notas,Lançamento de notas - 1º bimestre,2,08/10/2026,08/10/2026
+2026,Presencial,Lançamento de notas,Lançamento de notas - 2º bimestre,2,04/12/2026,04/12/2026
+2026,Presencial,Fechamento de Período e Rematrícula,Geração de pré-matrícula para 2026-2,1,18/06/2026,18/06/2026
+2026,Presencial,Fechamento de Período e Rematrícula,Geração de pré-matrícula para 2027-1,2,17/12/2026,17/12/2026
+2026,Presencial,Fechamento de Período e Rematrícula,Fechamento de Período e Atualização de série para 2026-2,1,14/07/2026,25/07/2026
+2026,Presencial,Fechamento de Período e Rematrícula,Fechamento de Período e Atualização de série para 2027-1,2,21/12/2026,31/01/2027
+2026,Graduação EAD,Políticas Preditivas e de Retenção,Recomeço,51,01/12/2025,23/03/2026
+2026,Graduação EAD,Políticas Preditivas e de Retenção,Desplug,51,19/01/2026,25/04/2026
+2026,Graduação EAD,Políticas Preditivas e de Retenção,Redesplug,51,19/01/2026,25/04/2026
+2026,Graduação EAD,Políticas Preditivas e de Retenção,Cancelamento de DP/AD estendido,51,31/03/2026,08/04/2026
+2026,Graduação EAD,Políticas Preditivas e de Retenção,Recomeço,52,30/03/2026,01/06/2026
+2026,Graduação EAD,Políticas Preditivas e de Retenção,Desplug,52,27/04/2026,04/07/2026
+2026,Graduação EAD,Políticas Preditivas e de Retenção,Redesplug,52,27/04/2026,04/07/2026
+2026,Graduação EAD,Políticas Preditivas e de Retenção,Cancelamento de DP/AD estendido,52,30/06/2026,08/07/2026
+2026,Graduação EAD,Políticas Preditivas e de Retenção,Recomeço,53,08/06/2026,17/08/2026
+2026,Graduação EAD,Políticas Preditivas e de Retenção,Desplug,53,06/07/2026,19/09/2026
+2026,Graduação EAD,Políticas Preditivas e de Retenção,Redesplug,53,06/07/2026,19/09/2026
+2026,Graduação EAD,Políticas Preditivas e de Retenção,Cancelamento de DP/AD estendido,53,29/09/2026,07/10/2026
+2026,Graduação EAD,Políticas Preditivas e de Retenção,Recomeço,54,31/08/2026,26/10/2026
+2026,Graduação EAD,Políticas Preditivas e de Retenção,Desplug,54,21/09/2026,28/11/2026
+2026,Graduação EAD,Políticas Preditivas e de Retenção,Redesplug,54,21/09/2026,28/11/2026
+2026,Graduação EAD,Políticas Preditivas e de Retenção,Cancelamento de DP/AD estendido,54,01/12/2026,09/12/2026
+2026,Técnico,Políticas Preditivas e de Retenção,Recomeço,91,01/12/2025,23/03/2026
+2026,Técnico,Políticas Preditivas e de Retenção,Desplug,91,19/01/2026,25/04/2026
+2026,Técnico,Políticas Preditivas e de Retenção,Redesplug,91,19/01/2026,25/04/2026
+2026,Técnico,Políticas Preditivas e de Retenção,Recomeço,92,30/03/2026,01/06/2026
+2026,Técnico,Políticas Preditivas e de Retenção,Desplug,92,27/04/2026,04/07/2026
+2026,Técnico,Políticas Preditivas e de Retenção,Redesplug,92,27/04/2026,04/07/2026
+2026,Técnico,Políticas Preditivas e de Retenção,Recomeço,93,08/06/2026,17/08/2026
+2026,Técnico,Políticas Preditivas e de Retenção,Desplug,93,06/07/2026,19/09/2026
+2026,Técnico,Políticas Preditivas e de Retenção,Redesplug,93,06/07/2026,19/09/2026
+2026,Técnico,Políticas Preditivas e de Retenção,Recomeço,94,31/08/2026,26/10/2026
+2026,Técnico,Políticas Preditivas e de Retenção,Desplug,94,21/09/2026,28/11/2026
+2026,Técnico,Políticas Preditivas e de Retenção,Redesplug,94,21/09/2026,28/11/2026
+2026,Profissionalizantes,Políticas Preditivas e de Retenção,Recomeço,71,01/12/2025,23/03/2026
+2026,Profissionalizantes,Políticas Preditivas e de Retenção,Desplug,71,19/01/2026,25/04/2026
+2026,Profissionalizantes,Políticas Preditivas e de Retenção,Redesplug,71,19/01/2026,25/04/2026
+2026,Profissionalizantes,Políticas Preditivas e de Retenção,Recomeço,72,30/03/2026,01/06/2026
+2026,Profissionalizantes,Políticas Preditivas e de Retenção,Desplug,72,27/04/2026,04/07/2026
+2026,Profissionalizantes,Políticas Preditivas e de Retenção,Redesplug,72,27/04/2026,04/07/2026
+2026,Profissionalizantes,Políticas Preditivas e de Retenção,Recomeço,73,08/06/2026,17/08/2026
+2026,Profissionalizantes,Políticas Preditivas e de Retenção,Desplug,73,06/07/2026,19/09/2026
+2026,Profissionalizantes,Políticas Preditivas e de Retenção,Redesplug,73,06/07/2026,19/09/2026
+2026,Profissionalizantes,Políticas Preditivas e de Retenção,Recomeço,74,31/08/2026,26/10/2026
+2026,Profissionalizantes,Políticas Preditivas e de Retenção,Desplug,74,21/09/2026,28/11/2026
+2026,Profissionalizantes,Políticas Preditivas e de Retenção,Redesplug,74,21/09/2026,28/11/2026
